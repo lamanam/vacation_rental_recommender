@@ -1,0 +1,186 @@
+[
+  {
+    "property_id": 1,
+    "location": "Banff",
+    "type": "cabin",
+    "price_per_night": 180,
+    "features": ["hot tub", "fireplace"],
+    "tags": ["mountain", "remote"]
+  },
+  {
+    "property_id": 2,
+    "location": "Tofino",
+    "type": "house",
+    "price_per_night": 120,
+    "features": ["ocean view", "pet friendly"],
+    "tags": ["beach"]
+  },
+  {
+    "property_id": 3,
+    "location": "Toronto",
+    "type": "apartment",
+    "price_per_night": 110,
+    "features": ["city view", "wifi"],
+    "tags": ["urban"]
+  },
+  {
+    "property_id": 4,
+    "location": "Whistler",
+    "type": "condo",
+    "price_per_night": 150,
+    "features": ["ski-in/ski-out", "fireplace", "wifi"],
+    "tags": ["mountain", "family-friendly"]
+  },
+  {
+    "property_id": 5,
+    "location": "Vancouver",
+    "type": "apartment",
+    "price_per_night": 130,
+    "features": ["city view", "gym", "wifi"],
+    "tags": ["urban", "nightlife"]
+  },
+  {
+    "property_id": 6,
+    "location": "Muskoka",
+    "type": "cottage",
+    "price_per_night": 190,
+    "features": ["lake access", "fireplace", "hot tub"],
+    "tags": ["lake", "family-friendly", "remote"]
+  },
+  {
+    "property_id": 7,
+    "location": "Mont Tremblant",
+    "type": "chalet",
+    "price_per_night": 160,
+    "features": ["ski-in/ski-out", "hot tub", "pet friendly"],
+    "tags": ["mountain", "family-friendly"]
+  },
+  {
+    "property_id": 8,
+    "location": "Niagara Falls",
+    "type": "house",
+    "price_per_night": 140,
+    "features": ["pool", "wifi", "nightlife"],
+    "tags": ["urban", "family-friendly"]
+  },
+  {
+    "property_id": 9,
+    "location": "Halifax",
+    "type": "condo",
+    "price_per_night": 100,
+    "features": ["ocean view", "wifi", "pet friendly"],
+    "tags": ["beach", "urban"]
+  },
+  {
+    "property_id": 10,
+    "location": "Prince Edward County",
+    "type": "farmhouse",
+    "price_per_night": 170,
+    "features": ["fireplace", "pet friendly", "garden"],
+    "tags": ["rural", "family-friendly"]
+  },
+  {
+    "property_id": 11,
+    "location": "Jasper",
+    "type": "cabin",
+    "price_per_night": 175,
+    "features": ["hot tub", "fireplace", "lake access"],
+    "tags": ["mountain", "remote", "lake"]
+  },
+  {
+    "property_id": 12,
+    "location": "Québec City",
+    "type": "apartment",
+    "price_per_night": 120,
+    "features": ["city view", "wifi", "historic"],
+    "tags": ["urban", "historic"]
+  },
+  {
+    "property_id": 13,
+    "location": "Kingston",
+    "type": "house",
+    "price_per_night": 135,
+    "features": ["fireplace", "pet friendly", "garden"],
+    "tags": ["lake", "family-friendly"]
+  },
+  {
+    "property_id": 14,
+    "location": "Kelowna",
+    "type": "condo",
+    "price_per_night": 145,
+    "features": ["pool", "wifi", "gym"],
+    "tags": ["lake", "urban"]
+  },
+  {
+    "property_id": 15,
+    "location": "Niagara-on-the-Lake",
+    "type": "villa",
+    "price_per_night": 200,
+    "features": ["pool", "garden", "fireplace"],
+    "tags": ["lake", "family-friendly"]
+  },
+  {
+    "property_id": 16,
+    "location": "Victoria",
+    "type": "house",
+    "price_per_night": 155,
+    "features": ["ocean view", "pet friendly", "garden"],
+    "tags": ["beach", "family-friendly"]
+  },
+  {
+    "property_id": 17,
+    "location": "St. John's",
+    "type": "cottage",
+    "price_per_night": 115,
+    "features": ["ocean view", "fireplace", "wifi"],
+    "tags": ["beach", "remote"]
+  },
+  {
+    "property_id": 18,
+    "location": "Ottawa",
+    "type": "apartment",
+    "price_per_night": 125,
+    "features": ["city view", "wifi", "gym"],
+    "tags": ["urban"]
+  },
+  {
+    "property_id": 19,
+    "location": "Blue Mountain",
+    "type": "chalet",
+    "price_per_night": 185,
+    "features": ["ski-in/ski-out", "hot tub", "fireplace"],
+    "tags": ["mountain", "family-friendly"]
+  },
+  {
+    "property_id": 20,
+    "location": "Gatineau",
+    "type": "condo",
+    "price_per_night": 110,
+    "features": ["city view", "wifi"],
+    "tags": ["urban"]
+  },
+  {
+    "property_id": 21,
+    "location": "Lake Louise",
+    "type": "cabin",
+    "price_per_night": 195,
+    "features": ["hot tub", "lake access", "fireplace"],
+    "tags": ["mountain", "lake", "remote"]
+  },
+  {
+    "property_id": 22,
+    "location": "Saguenay",
+    "type": "house",
+    "price_per_night": 130,
+    "features": ["lake access", "pet friendly", "fireplace"],
+    "tags": ["lake", "family-friendly"]
+  },
+  {
+    "property_id": 23,
+    "location": "Calgary",
+    "type": "apartment",
+    "price_per_night": 115,
+    "features": ["city view", "wifi", "gym"],
+    "tags": ["urban", "nightlife"]
+  }
+]

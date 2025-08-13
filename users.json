@@ -1,0 +1,23 @@
+[
+  {
+    "user_id": 1,
+    "name": "Alice",
+    "group_size": 2,
+    "preferred_environment": "mountain",
+    "budget": 200
+  },
+  {
+    "user_id": 2,
+    "name": "Bob",
+    "group_size": 4,
+    "preferred_environment": "beach",
+    "budget": 140
+  },
+  {
+    "user_id": 3,
+    "name": "Charlie",
+    "group_size": 1,
+    "preferred_environment": "urban",
+    "budget": 150
+  }
+]
