@@ -1,0 +1,5277 @@
+[
+    {
+        "property_id": 1,
+        "name": "Sunny Chalet",
+        "location": "Victoria, British Columbia",
+        "type": "cabin",
+        "price_per_night": 219.75,
+        "features": [
+            "WiFi",
+            "fireplace",
+            "pet-friendly",
+            "dock",
+            "garden"
+        ],
+        "tags": [
+            "lake",
+            "nightlife",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 2,
+        "name": "Luxury Farmhouse",
+        "location": "Vancouver, British Columbia",
+        "type": "farmhouse",
+        "price_per_night": 303.95,
+        "features": [
+            "WiFi",
+            "BBQ"
+        ],
+        "tags": [
+            "city",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 3,
+        "name": "Secluded Condo",
+        "location": "Niagara-on-the-Lake, Ontario",
+        "type": "cabin",
+        "price_per_night": 131.47,
+        "features": [
+            "pet-friendly",
+            "canoe"
+        ],
+        "tags": [
+            "city",
+            "nightlife"
+        ]
+    },
+    {
+        "property_id": 4,
+        "name": "Sunny Lodge",
+        "location": "Prince Edward Island, PEI",
+        "type": "house",
+        "price_per_night": 210.5,
+        "features": [
+            "WiFi",
+            "fireplace",
+            "kayak",
+            "AC",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "romantic",
+            "city"
+        ]
+    },
+    {
+        "property_id": 5,
+        "name": "Rustic Bungalow",
+        "location": "Calgary, Alberta",
+        "type": "lodge",
+        "price_per_night": 232.42,
+        "features": [
+            "dock",
+            "WiFi",
+            "fireplace"
+        ],
+        "tags": [
+            "nature",
+            "city",
+            "mountain",
+            "family-friendly"
+        ]
+    },
+    {
+        "property_id": 6,
+        "name": "Cozy Apartment",
+        "location": "Tofino, British Columbia",
+        "type": "bungalow",
+        "price_per_night": 266.89,
+        "features": [
+            "fireplace",
+            "pet-friendly",
+            "ski-in/ski-out",
+            "dock"
+        ],
+        "tags": [
+            "luxury",
+            "remote",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 7,
+        "name": "Rustic Condo",
+        "location": "Vancouver, British Columbia",
+        "type": "lodge",
+        "price_per_night": 252.59,
+        "features": [
+            "BBQ",
+            "kayak",
+            "AC"
+        ],
+        "tags": [
+            "nightlife",
+            "family-friendly",
+            "beach",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 8,
+        "name": "Charming Cabin",
+        "location": "Quebec City, Quebec",
+        "type": "cottage",
+        "price_per_night": 167.81,
+        "features": [
+            "BBQ",
+            "canoe",
+            "fireplace"
+        ],
+        "tags": [
+            "adventure",
+            "family-friendly",
+            "quiet",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 9,
+        "name": "Modern Chalet",
+        "location": "Halifax, Nova Scotia",
+        "type": "condo",
+        "price_per_night": 239.25,
+        "features": [
+            "AC",
+            "canoe",
+            "ski-in/ski-out",
+            "pet-friendly",
+            "kayak"
+        ],
+        "tags": [
+            "adventure",
+            "nightlife",
+            "luxury",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 10,
+        "name": "Luxury Farmhouse",
+        "location": "Muskoka, Ontario",
+        "type": "bungalow",
+        "price_per_night": 350.52,
+        "features": [
+            "ski-in/ski-out",
+            "kayak"
+        ],
+        "tags": [
+            "adventure",
+            "remote",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 11,
+        "name": "Cozy Farmhouse",
+        "location": "Toronto, Ontario",
+        "type": "chalet",
+        "price_per_night": 211.17,
+        "features": [
+            "pet-friendly",
+            "WiFi"
+        ],
+        "tags": [
+            "remote",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 12,
+        "name": "Sunny House",
+        "location": "Victoria, British Columbia",
+        "type": "apartment",
+        "price_per_night": 222.16,
+        "features": [
+            "BBQ",
+            "WiFi",
+            "hot tub",
+            "pet-friendly",
+            "dock"
+        ],
+        "tags": [
+            "family-friendly",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 13,
+        "name": "Cozy Bungalow",
+        "location": "Montreal, Quebec",
+        "type": "house",
+        "price_per_night": 168.33,
+        "features": [
+            "BBQ",
+            "pet-friendly",
+            "garden"
+        ],
+        "tags": [
+            "remote",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 14,
+        "name": "Luxury Farmhouse",
+        "location": "Calgary, Alberta",
+        "type": "bungalow",
+        "price_per_night": 404.17,
+        "features": [
+            "BBQ",
+            "pet-friendly",
+            "fireplace"
+        ],
+        "tags": [
+            "nature",
+            "remote",
+            "mountain",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 15,
+        "name": "Luxury House",
+        "location": "Muskoka, Ontario",
+        "type": "condo",
+        "price_per_night": 233.21,
+        "features": [
+            "dock",
+            "AC",
+            "fireplace",
+            "canoe"
+        ],
+        "tags": [
+            "quiet",
+            "mountain"
+        ]
+    },
+    {
+        "property_id": 16,
+        "name": "Urban Chalet",
+        "location": "Calgary, Alberta",
+        "type": "cabin",
+        "price_per_night": 239.62,
+        "features": [
+            "BBQ",
+            "canoe"
+        ],
+        "tags": [
+            "mountain",
+            "luxury",
+            "quiet",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 17,
+        "name": "Charming Cabin",
+        "location": "Prince Edward Island, PEI",
+        "type": "lodge",
+        "price_per_night": 414.46,
+        "features": [
+            "dock",
+            "hot tub",
+            "pet-friendly",
+            "garden"
+        ],
+        "tags": [
+            "beach",
+            "lake",
+            "city",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 18,
+        "name": "Modern Cabin",
+        "location": "Whistler, British Columbia",
+        "type": "cottage",
+        "price_per_night": 108.96,
+        "features": [
+            "AC",
+            "dock",
+            "garden",
+            "kayak"
+        ],
+        "tags": [
+            "remote",
+            "mountain",
+            "family-friendly"
+        ]
+    },
+    {
+        "property_id": 19,
+        "name": "Rustic Bungalow",
+        "location": "Winnipeg, Manitoba",
+        "type": "chalet",
+        "price_per_night": 317.77,
+        "features": [
+            "kayak",
+            "canoe",
+            "pet-friendly"
+        ],
+        "tags": [
+            "romantic",
+            "family-friendly"
+        ]
+    },
+    {
+        "property_id": 20,
+        "name": "Sunny Bungalow",
+        "location": "Lake Louise, Alberta",
+        "type": "farmhouse",
+        "price_per_night": 70.56,
+        "features": [
+            "WiFi",
+            "fireplace",
+            "hot tub",
+            "canoe",
+            "pet-friendly"
+        ],
+        "tags": [
+            "mountain",
+            "beach",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 21,
+        "name": "Secluded Cabin",
+        "location": "Tofino, British Columbia",
+        "type": "bungalow",
+        "price_per_night": 472.08,
+        "features": [
+            "fireplace",
+            "canoe",
+            "kayak",
+            "WiFi",
+            "garden"
+        ],
+        "tags": [
+            "romantic",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 22,
+        "name": "Secluded House",
+        "location": "Niagara-on-the-Lake, Ontario",
+        "type": "house",
+        "price_per_night": 393.12,
+        "features": [
+            "BBQ",
+            "AC",
+            "WiFi"
+        ],
+        "tags": [
+            "mountain",
+            "nature",
+            "city",
+            "nightlife"
+        ]
+    },
+    {
+        "property_id": 23,
+        "name": "Peaceful Lodge",
+        "location": "Winnipeg, Manitoba",
+        "type": "chalet",
+        "price_per_night": 458.28,
+        "features": [
+            "kayak",
+            "WiFi"
+        ],
+        "tags": [
+            "mountain",
+            "beach",
+            "family-friendly"
+        ]
+    },
+    {
+        "property_id": 24,
+        "name": "Sunny House",
+        "location": "Calgary, Alberta",
+        "type": "apartment",
+        "price_per_night": 170.61,
+        "features": [
+            "garden",
+            "BBQ",
+            "canoe"
+        ],
+        "tags": [
+            "nature",
+            "nightlife",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 25,
+        "name": "Sunny Cabin",
+        "location": "Banff, Alberta",
+        "type": "bungalow",
+        "price_per_night": 420.54,
+        "features": [
+            "garden",
+            "fireplace",
+            "dock"
+        ],
+        "tags": [
+            "mountain",
+            "lake",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 26,
+        "name": "Charming House",
+        "location": "Whistler, British Columbia",
+        "type": "chalet",
+        "price_per_night": 191.22,
+        "features": [
+            "canoe",
+            "fireplace",
+            "AC",
+            "pet-friendly",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "beach",
+            "romantic",
+            "family-friendly",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 27,
+        "name": "Urban Lodge",
+        "location": "Jasper, Alberta",
+        "type": "cabin",
+        "price_per_night": 115.75,
+        "features": [
+            "AC",
+            "hot tub"
+        ],
+        "tags": [
+            "adventure",
+            "nightlife",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 28,
+        "name": "Secluded Condo",
+        "location": "Jasper, Alberta",
+        "type": "cabin",
+        "price_per_night": 141.72,
+        "features": [
+            "WiFi",
+            "garden",
+            "hot tub",
+            "fireplace",
+            "dock"
+        ],
+        "tags": [
+            "romantic",
+            "remote",
+            "beach",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 29,
+        "name": "Rustic Chalet",
+        "location": "Montreal, Quebec",
+        "type": "farmhouse",
+        "price_per_night": 268.19,
+        "features": [
+            "dock",
+            "pet-friendly"
+        ],
+        "tags": [
+            "adventure",
+            "romantic",
+            "nightlife",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 30,
+        "name": "Cozy Cottage",
+        "location": "Jasper, Alberta",
+        "type": "bungalow",
+        "price_per_night": 297.66,
+        "features": [
+            "hot tub",
+            "garden",
+            "kayak",
+            "AC"
+        ],
+        "tags": [
+            "nature",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 31,
+        "name": "Lakeview Farmhouse",
+        "location": "Niagara-on-the-Lake, Ontario",
+        "type": "chalet",
+        "price_per_night": 327.89,
+        "features": [
+            "kayak",
+            "fireplace"
+        ],
+        "tags": [
+            "nature",
+            "quiet",
+            "mountain"
+        ]
+    },
+    {
+        "property_id": 32,
+        "name": "Sunny Lodge",
+        "location": "Kelowna, British Columbia",
+        "type": "bungalow",
+        "price_per_night": 297.71,
+        "features": [
+            "BBQ",
+            "dock"
+        ],
+        "tags": [
+            "city",
+            "beach",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 33,
+        "name": "Rustic Chalet",
+        "location": "Montreal, Quebec",
+        "type": "condo",
+        "price_per_night": 149.49,
+        "features": [
+            "kayak",
+            "BBQ"
+        ],
+        "tags": [
+            "nature",
+            "mountain"
+        ]
+    },
+    {
+        "property_id": 34,
+        "name": "Urban Cabin",
+        "location": "Lake Louise, Alberta",
+        "type": "cabin",
+        "price_per_night": 196.92,
+        "features": [
+            "canoe",
+            "pet-friendly",
+            "fireplace",
+            "hot tub"
+        ],
+        "tags": [
+            "romantic",
+            "nature",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 35,
+        "name": "Cozy Farmhouse",
+        "location": "Whistler, British Columbia",
+        "type": "bungalow",
+        "price_per_night": 489.4,
+        "features": [
+            "BBQ",
+            "dock",
+            "pet-friendly",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "mountain",
+            "luxury",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 36,
+        "name": "Sunny Condo",
+        "location": "Saskatoon, Saskatchewan",
+        "type": "apartment",
+        "price_per_night": 90.11,
+        "features": [
+            "fireplace",
+            "kayak",
+            "ski-in/ski-out",
+            "dock",
+            "BBQ"
+        ],
+        "tags": [
+            "beach",
+            "romantic",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 37,
+        "name": "Rustic Cabin",
+        "location": "Quebec City, Quebec",
+        "type": "apartment",
+        "price_per_night": 137.37,
+        "features": [
+            "kayak",
+            "AC",
+            "WiFi",
+            "hot tub"
+        ],
+        "tags": [
+            "nightlife",
+            "family-friendly"
+        ]
+    },
+    {
+        "property_id": 38,
+        "name": "Urban Cottage",
+        "location": "Montreal, Quebec",
+        "type": "farmhouse",
+        "price_per_night": 209.31,
+        "features": [
+            "canoe",
+            "dock",
+            "garden"
+        ],
+        "tags": [
+            "family-friendly",
+            "nightlife"
+        ]
+    },
+    {
+        "property_id": 39,
+        "name": "Peaceful Lodge",
+        "location": "Montreal, Quebec",
+        "type": "cabin",
+        "price_per_night": 169.67,
+        "features": [
+            "WiFi",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "beach",
+            "nightlife",
+            "adventure",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 40,
+        "name": "Peaceful Cabin",
+        "location": "Kelowna, British Columbia",
+        "type": "cabin",
+        "price_per_night": 141.52,
+        "features": [
+            "AC",
+            "WiFi",
+            "fireplace",
+            "dock"
+        ],
+        "tags": [
+            "adventure",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 41,
+        "name": "Luxury House",
+        "location": "Victoria, British Columbia",
+        "type": "apartment",
+        "price_per_night": 241.18,
+        "features": [
+            "garden",
+            "kayak",
+            "WiFi",
+            "AC",
+            "canoe"
+        ],
+        "tags": [
+            "beach",
+            "nature",
+            "remote",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 42,
+        "name": "Urban Apartment",
+        "location": "Vancouver, British Columbia",
+        "type": "farmhouse",
+        "price_per_night": 273.46,
+        "features": [
+            "AC",
+            "garden",
+            "fireplace",
+            "kayak"
+        ],
+        "tags": [
+            "quiet",
+            "lake",
+            "city"
+        ]
+    },
+    {
+        "property_id": 43,
+        "name": "Modern Cottage",
+        "location": "Kelowna, British Columbia",
+        "type": "bungalow",
+        "price_per_night": 330.94,
+        "features": [
+            "AC",
+            "canoe",
+            "dock"
+        ],
+        "tags": [
+            "remote",
+            "lake",
+            "nightlife",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 44,
+        "name": "Lakeview Farmhouse",
+        "location": "Toronto, Ontario",
+        "type": "cabin",
+        "price_per_night": 113.87,
+        "features": [
+            "ski-in/ski-out",
+            "BBQ",
+            "fireplace",
+            "dock",
+            "hot tub"
+        ],
+        "tags": [
+            "quiet",
+            "beach",
+            "nightlife"
+        ]
+    },
+    {
+        "property_id": 45,
+        "name": "Cozy Apartment",
+        "location": "Kelowna, British Columbia",
+        "type": "house",
+        "price_per_night": 306.05,
+        "features": [
+            "ski-in/ski-out",
+            "pet-friendly",
+            "BBQ",
+            "garden",
+            "canoe"
+        ],
+        "tags": [
+            "quiet",
+            "city",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 46,
+        "name": "Secluded Bungalow",
+        "location": "Kelowna, British Columbia",
+        "type": "condo",
+        "price_per_night": 268.28,
+        "features": [
+            "hot tub",
+            "WiFi",
+            "BBQ",
+            "pet-friendly",
+            "AC"
+        ],
+        "tags": [
+            "luxury",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 47,
+        "name": "Peaceful Bungalow",
+        "location": "Quebec City, Quebec",
+        "type": "cottage",
+        "price_per_night": 147.84,
+        "features": [
+            "hot tub",
+            "WiFi",
+            "canoe"
+        ],
+        "tags": [
+            "family-friendly",
+            "luxury",
+            "beach",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 48,
+        "name": "Secluded Bungalow",
+        "location": "Niagara-on-the-Lake, Ontario",
+        "type": "lodge",
+        "price_per_night": 226.76,
+        "features": [
+            "garden",
+            "fireplace",
+            "canoe",
+            "kayak",
+            "AC"
+        ],
+        "tags": [
+            "remote",
+            "city",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 49,
+        "name": "Urban Bungalow",
+        "location": "Saskatoon, Saskatchewan",
+        "type": "condo",
+        "price_per_night": 233.43,
+        "features": [
+            "hot tub",
+            "canoe",
+            "pet-friendly",
+            "AC"
+        ],
+        "tags": [
+            "city",
+            "family-friendly"
+        ]
+    },
+    {
+        "property_id": 50,
+        "name": "Luxury Cabin",
+        "location": "Kelowna, British Columbia",
+        "type": "chalet",
+        "price_per_night": 389.3,
+        "features": [
+            "pet-friendly",
+            "canoe",
+            "dock",
+            "fireplace",
+            "AC"
+        ],
+        "tags": [
+            "family-friendly",
+            "city"
+        ]
+    },
+    {
+        "property_id": 51,
+        "name": "Peaceful Chalet",
+        "location": "Toronto, Ontario",
+        "type": "apartment",
+        "price_per_night": 157.21,
+        "features": [
+            "ski-in/ski-out",
+            "BBQ",
+            "kayak"
+        ],
+        "tags": [
+            "nightlife",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 52,
+        "name": "Modern House",
+        "location": "Ottawa, Ontario",
+        "type": "farmhouse",
+        "price_per_night": 483.27,
+        "features": [
+            "pet-friendly",
+            "kayak",
+            "WiFi"
+        ],
+        "tags": [
+            "mountain",
+            "beach",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 53,
+        "name": "Lakeview Lodge",
+        "location": "Calgary, Alberta",
+        "type": "chalet",
+        "price_per_night": 347.73,
+        "features": [
+            "canoe",
+            "AC",
+            "hot tub",
+            "garden"
+        ],
+        "tags": [
+            "romantic",
+            "beach",
+            "family-friendly",
+            "city"
+        ]
+    },
+    {
+        "property_id": 54,
+        "name": "Secluded Condo",
+        "location": "Edmonton, Alberta",
+        "type": "farmhouse",
+        "price_per_night": 433.11,
+        "features": [
+            "kayak",
+            "AC",
+            "WiFi",
+            "pet-friendly",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "city",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 55,
+        "name": "Peaceful Condo",
+        "location": "Banff, Alberta",
+        "type": "bungalow",
+        "price_per_night": 276.23,
+        "features": [
+            "pet-friendly",
+            "kayak",
+            "WiFi",
+            "dock",
+            "AC"
+        ],
+        "tags": [
+            "luxury",
+            "remote",
+            "family-friendly"
+        ]
+    },
+    {
+        "property_id": 56,
+        "name": "Urban Bungalow",
+        "location": "Jasper, Alberta",
+        "type": "chalet",
+        "price_per_night": 190.58,
+        "features": [
+            "BBQ",
+            "WiFi",
+            "kayak",
+            "fireplace",
+            "canoe"
+        ],
+        "tags": [
+            "nature",
+            "mountain",
+            "luxury",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 57,
+        "name": "Charming Lodge",
+        "location": "Vancouver, British Columbia",
+        "type": "apartment",
+        "price_per_night": 202.53,
+        "features": [
+            "garden",
+            "WiFi",
+            "kayak",
+            "pet-friendly",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "remote",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 58,
+        "name": "Urban Farmhouse",
+        "location": "Saskatoon, Saskatchewan",
+        "type": "cabin",
+        "price_per_night": 111.28,
+        "features": [
+            "kayak",
+            "AC",
+            "dock",
+            "BBQ",
+            "pet-friendly"
+        ],
+        "tags": [
+            "quiet",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 59,
+        "name": "Rustic Apartment",
+        "location": "Calgary, Alberta",
+        "type": "farmhouse",
+        "price_per_night": 321.45,
+        "features": [
+            "BBQ",
+            "garden",
+            "kayak",
+            "fireplace"
+        ],
+        "tags": [
+            "remote",
+            "mountain",
+            "luxury",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 60,
+        "name": "Rustic Chalet",
+        "location": "Whistler, British Columbia",
+        "type": "bungalow",
+        "price_per_night": 488.63,
+        "features": [
+            "dock",
+            "garden",
+            "canoe"
+        ],
+        "tags": [
+            "city",
+            "lake",
+            "family-friendly",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 61,
+        "name": "Charming Lodge",
+        "location": "Whistler, British Columbia",
+        "type": "apartment",
+        "price_per_night": 101.92,
+        "features": [
+            "ski-in/ski-out",
+            "AC"
+        ],
+        "tags": [
+            "city",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 62,
+        "name": "Sunny Lodge",
+        "location": "Calgary, Alberta",
+        "type": "bungalow",
+        "price_per_night": 416.23,
+        "features": [
+            "WiFi",
+            "kayak",
+            "garden",
+            "AC"
+        ],
+        "tags": [
+            "mountain",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 63,
+        "name": "Modern Cottage",
+        "location": "Victoria, British Columbia",
+        "type": "house",
+        "price_per_night": 121.01,
+        "features": [
+            "WiFi",
+            "BBQ"
+        ],
+        "tags": [
+            "city",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 64,
+        "name": "Rustic Farmhouse",
+        "location": "Victoria, British Columbia",
+        "type": "chalet",
+        "price_per_night": 453.63,
+        "features": [
+            "kayak",
+            "dock"
+        ],
+        "tags": [
+            "quiet",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 65,
+        "name": "Cozy Chalet",
+        "location": "Whistler, British Columbia",
+        "type": "condo",
+        "price_per_night": 82.52,
+        "features": [
+            "fireplace",
+            "hot tub",
+            "BBQ",
+            "dock"
+        ],
+        "tags": [
+            "city",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 66,
+        "name": "Sunny Cabin",
+        "location": "Edmonton, Alberta",
+        "type": "lodge",
+        "price_per_night": 374.75,
+        "features": [
+            "canoe",
+            "kayak"
+        ],
+        "tags": [
+            "city",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 67,
+        "name": "Peaceful Cabin",
+        "location": "Edmonton, Alberta",
+        "type": "cabin",
+        "price_per_night": 228.39,
+        "features": [
+            "fireplace",
+            "AC",
+            "canoe",
+            "garden",
+            "pet-friendly"
+        ],
+        "tags": [
+            "luxury",
+            "romantic",
+            "beach",
+            "city"
+        ]
+    },
+    {
+        "property_id": 68,
+        "name": "Charming Lodge",
+        "location": "Edmonton, Alberta",
+        "type": "condo",
+        "price_per_night": 126.98,
+        "features": [
+            "canoe",
+            "BBQ"
+        ],
+        "tags": [
+            "luxury",
+            "quiet",
+            "adventure",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 69,
+        "name": "Lakeview Cottage",
+        "location": "Quebec City, Quebec",
+        "type": "chalet",
+        "price_per_night": 399.54,
+        "features": [
+            "kayak",
+            "pet-friendly",
+            "WiFi",
+            "hot tub"
+        ],
+        "tags": [
+            "nature",
+            "nightlife",
+            "lake",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 70,
+        "name": "Modern Cottage",
+        "location": "Victoria, British Columbia",
+        "type": "farmhouse",
+        "price_per_night": 140.9,
+        "features": [
+            "kayak",
+            "AC",
+            "BBQ"
+        ],
+        "tags": [
+            "lake",
+            "romantic",
+            "quiet",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 71,
+        "name": "Cozy Bungalow",
+        "location": "Muskoka, Ontario",
+        "type": "lodge",
+        "price_per_night": 307.93,
+        "features": [
+            "WiFi",
+            "canoe"
+        ],
+        "tags": [
+            "family-friendly",
+            "beach",
+            "quiet",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 72,
+        "name": "Rustic Bungalow",
+        "location": "Toronto, Ontario",
+        "type": "bungalow",
+        "price_per_night": 455.57,
+        "features": [
+            "fireplace",
+            "kayak"
+        ],
+        "tags": [
+            "mountain",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 73,
+        "name": "Peaceful Farmhouse",
+        "location": "Quebec City, Quebec",
+        "type": "house",
+        "price_per_night": 233.27,
+        "features": [
+            "BBQ",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "romantic",
+            "remote",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 74,
+        "name": "Luxury Cottage",
+        "location": "Quebec City, Quebec",
+        "type": "apartment",
+        "price_per_night": 139.97,
+        "features": [
+            "canoe",
+            "ski-in/ski-out",
+            "garden",
+            "WiFi"
+        ],
+        "tags": [
+            "mountain",
+            "family-friendly",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 75,
+        "name": "Rustic Cottage",
+        "location": "Vancouver, British Columbia",
+        "type": "cabin",
+        "price_per_night": 87.43,
+        "features": [
+            "dock",
+            "AC",
+            "garden"
+        ],
+        "tags": [
+            "lake",
+            "mountain",
+            "family-friendly"
+        ]
+    },
+    {
+        "property_id": 76,
+        "name": "Cozy Lodge",
+        "location": "Tofino, British Columbia",
+        "type": "chalet",
+        "price_per_night": 169.2,
+        "features": [
+            "canoe",
+            "garden",
+            "WiFi"
+        ],
+        "tags": [
+            "mountain",
+            "romantic",
+            "family-friendly",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 77,
+        "name": "Charming Apartment",
+        "location": "Toronto, Ontario",
+        "type": "condo",
+        "price_per_night": 273.88,
+        "features": [
+            "garden",
+            "ski-in/ski-out",
+            "BBQ"
+        ],
+        "tags": [
+            "adventure",
+            "city",
+            "mountain",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 78,
+        "name": "Urban Lodge",
+        "location": "Banff, Alberta",
+        "type": "apartment",
+        "price_per_night": 93.9,
+        "features": [
+            "ski-in/ski-out",
+            "hot tub",
+            "WiFi",
+            "AC"
+        ],
+        "tags": [
+            "city",
+            "mountain",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 79,
+        "name": "Secluded Chalet",
+        "location": "Halifax, Nova Scotia",
+        "type": "house",
+        "price_per_night": 310.78,
+        "features": [
+            "dock",
+            "pet-friendly",
+            "fireplace"
+        ],
+        "tags": [
+            "adventure",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 80,
+        "name": "Lakeview Farmhouse",
+        "location": "Halifax, Nova Scotia",
+        "type": "house",
+        "price_per_night": 228.39,
+        "features": [
+            "canoe",
+            "WiFi",
+            "hot tub",
+            "garden",
+            "pet-friendly"
+        ],
+        "tags": [
+            "lake",
+            "adventure",
+            "family-friendly",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 81,
+        "name": "Sunny Chalet",
+        "location": "Victoria, British Columbia",
+        "type": "cottage",
+        "price_per_night": 244.91,
+        "features": [
+            "WiFi",
+            "hot tub",
+            "dock",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "remote",
+            "city",
+            "luxury",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 82,
+        "name": "Charming Condo",
+        "location": "Saskatoon, Saskatchewan",
+        "type": "farmhouse",
+        "price_per_night": 466.09,
+        "features": [
+            "kayak",
+            "WiFi",
+            "hot tub",
+            "pet-friendly"
+        ],
+        "tags": [
+            "luxury",
+            "quiet",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 83,
+        "name": "Lakeview House",
+        "location": "Lake Louise, Alberta",
+        "type": "condo",
+        "price_per_night": 152.75,
+        "features": [
+            "pet-friendly",
+            "dock",
+            "fireplace"
+        ],
+        "tags": [
+            "remote",
+            "nature",
+            "luxury",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 84,
+        "name": "Urban Lodge",
+        "location": "Quebec City, Quebec",
+        "type": "apartment",
+        "price_per_night": 168.44,
+        "features": [
+            "hot tub",
+            "ski-in/ski-out",
+            "kayak",
+            "pet-friendly",
+            "dock"
+        ],
+        "tags": [
+            "quiet",
+            "beach",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 85,
+        "name": "Urban Lodge",
+        "location": "Niagara-on-the-Lake, Ontario",
+        "type": "bungalow",
+        "price_per_night": 111.08,
+        "features": [
+            "WiFi",
+            "canoe"
+        ],
+        "tags": [
+            "adventure",
+            "luxury",
+            "family-friendly"
+        ]
+    },
+    {
+        "property_id": 86,
+        "name": "Secluded Bungalow",
+        "location": "Ottawa, Ontario",
+        "type": "condo",
+        "price_per_night": 275.2,
+        "features": [
+            "WiFi",
+            "dock",
+            "pet-friendly",
+            "kayak",
+            "AC"
+        ],
+        "tags": [
+            "adventure",
+            "lake",
+            "quiet",
+            "city"
+        ]
+    },
+    {
+        "property_id": 87,
+        "name": "Modern Cabin",
+        "location": "Montreal, Quebec",
+        "type": "cabin",
+        "price_per_night": 184.19,
+        "features": [
+            "garden",
+            "fireplace",
+            "kayak"
+        ],
+        "tags": [
+            "luxury",
+            "quiet",
+            "family-friendly",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 88,
+        "name": "Sunny Cabin",
+        "location": "Prince Edward Island, PEI",
+        "type": "apartment",
+        "price_per_night": 182.7,
+        "features": [
+            "hot tub",
+            "kayak"
+        ],
+        "tags": [
+            "lake",
+            "nightlife",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 89,
+        "name": "Peaceful Cabin",
+        "location": "Lake Louise, Alberta",
+        "type": "apartment",
+        "price_per_night": 78.55,
+        "features": [
+            "fireplace",
+            "dock"
+        ],
+        "tags": [
+            "nightlife",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 90,
+        "name": "Peaceful Bungalow",
+        "location": "Lake Louise, Alberta",
+        "type": "chalet",
+        "price_per_night": 208.73,
+        "features": [
+            "garden",
+            "canoe",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "mountain",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 91,
+        "name": "Sunny Cabin",
+        "location": "Tofino, British Columbia",
+        "type": "chalet",
+        "price_per_night": 424.47,
+        "features": [
+            "canoe",
+            "kayak",
+            "dock",
+            "hot tub",
+            "AC"
+        ],
+        "tags": [
+            "remote",
+            "nightlife",
+            "family-friendly",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 92,
+        "name": "Secluded Chalet",
+        "location": "Ottawa, Ontario",
+        "type": "condo",
+        "price_per_night": 123.12,
+        "features": [
+            "fireplace",
+            "hot tub",
+            "canoe",
+            "WiFi"
+        ],
+        "tags": [
+            "lake",
+            "nightlife",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 93,
+        "name": "Sunny Apartment",
+        "location": "Tofino, British Columbia",
+        "type": "apartment",
+        "price_per_night": 73.12,
+        "features": [
+            "ski-in/ski-out",
+            "garden",
+            "fireplace",
+            "BBQ"
+        ],
+        "tags": [
+            "remote",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 94,
+        "name": "Sunny Bungalow",
+        "location": "Victoria, British Columbia",
+        "type": "cabin",
+        "price_per_night": 150.53,
+        "features": [
+            "pet-friendly",
+            "BBQ",
+            "WiFi",
+            "dock",
+            "hot tub"
+        ],
+        "tags": [
+            "beach",
+            "adventure",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 95,
+        "name": "Cozy Farmhouse",
+        "location": "Ottawa, Ontario",
+        "type": "house",
+        "price_per_night": 291.78,
+        "features": [
+            "pet-friendly",
+            "kayak",
+            "AC",
+            "dock",
+            "garden"
+        ],
+        "tags": [
+            "quiet",
+            "nature",
+            "family-friendly",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 96,
+        "name": "Secluded House",
+        "location": "Whistler, British Columbia",
+        "type": "condo",
+        "price_per_night": 230.7,
+        "features": [
+            "kayak",
+            "ski-in/ski-out",
+            "WiFi",
+            "AC",
+            "fireplace"
+        ],
+        "tags": [
+            "lake",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 97,
+        "name": "Modern Condo",
+        "location": "Kelowna, British Columbia",
+        "type": "apartment",
+        "price_per_night": 139.47,
+        "features": [
+            "pet-friendly",
+            "hot tub",
+            "WiFi",
+            "fireplace"
+        ],
+        "tags": [
+            "beach",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 98,
+        "name": "Sunny Cottage",
+        "location": "Halifax, Nova Scotia",
+        "type": "house",
+        "price_per_night": 149.72,
+        "features": [
+            "WiFi",
+            "canoe"
+        ],
+        "tags": [
+            "mountain",
+            "nature",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 99,
+        "name": "Peaceful Apartment",
+        "location": "Toronto, Ontario",
+        "type": "condo",
+        "price_per_night": 288.53,
+        "features": [
+            "dock",
+            "hot tub",
+            "ski-in/ski-out",
+            "WiFi"
+        ],
+        "tags": [
+            "adventure",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 100,
+        "name": "Cozy Cabin",
+        "location": "Prince Edward Island, PEI",
+        "type": "condo",
+        "price_per_night": 258.01,
+        "features": [
+            "hot tub",
+            "WiFi",
+            "canoe"
+        ],
+        "tags": [
+            "beach",
+            "mountain"
+        ]
+    },
+    {
+        "property_id": 101,
+        "name": "Modern Farmhouse",
+        "location": "Winnipeg, Manitoba",
+        "type": "cottage",
+        "price_per_night": 103.8,
+        "features": [
+            "canoe",
+            "BBQ",
+            "hot tub",
+            "ski-in/ski-out",
+            "garden"
+        ],
+        "tags": [
+            "lake",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 102,
+        "name": "Cozy Farmhouse",
+        "location": "Quebec City, Quebec",
+        "type": "house",
+        "price_per_night": 287.91,
+        "features": [
+            "garden",
+            "kayak",
+            "canoe",
+            "hot tub",
+            "pet-friendly"
+        ],
+        "tags": [
+            "remote",
+            "luxury",
+            "romantic",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 103,
+        "name": "Rustic Condo",
+        "location": "Kelowna, British Columbia",
+        "type": "cottage",
+        "price_per_night": 258.57,
+        "features": [
+            "fireplace",
+            "pet-friendly"
+        ],
+        "tags": [
+            "luxury",
+            "nightlife",
+            "beach",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 104,
+        "name": "Luxury Lodge",
+        "location": "Lake Louise, Alberta",
+        "type": "farmhouse",
+        "price_per_night": 121.46,
+        "features": [
+            "pet-friendly",
+            "fireplace",
+            "ski-in/ski-out",
+            "AC",
+            "kayak"
+        ],
+        "tags": [
+            "romantic",
+            "nightlife"
+        ]
+    },
+    {
+        "property_id": 105,
+        "name": "Peaceful Farmhouse",
+        "location": "Calgary, Alberta",
+        "type": "house",
+        "price_per_night": 340.69,
+        "features": [
+            "ski-in/ski-out",
+            "garden",
+            "BBQ",
+            "WiFi"
+        ],
+        "tags": [
+            "nature",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 106,
+        "name": "Cozy Lodge",
+        "location": "Jasper, Alberta",
+        "type": "farmhouse",
+        "price_per_night": 308.71,
+        "features": [
+            "dock",
+            "AC",
+            "ski-in/ski-out",
+            "fireplace",
+            "hot tub"
+        ],
+        "tags": [
+            "nightlife",
+            "luxury",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 107,
+        "name": "Secluded House",
+        "location": "Calgary, Alberta",
+        "type": "chalet",
+        "price_per_night": 196.79,
+        "features": [
+            "fireplace",
+            "hot tub",
+            "AC",
+            "BBQ",
+            "pet-friendly"
+        ],
+        "tags": [
+            "luxury",
+            "quiet",
+            "city"
+        ]
+    },
+    {
+        "property_id": 108,
+        "name": "Luxury Condo",
+        "location": "Muskoka, Ontario",
+        "type": "farmhouse",
+        "price_per_night": 228.86,
+        "features": [
+            "ski-in/ski-out",
+            "BBQ"
+        ],
+        "tags": [
+            "nature",
+            "adventure",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 109,
+        "name": "Modern Apartment",
+        "location": "Prince Edward Island, PEI",
+        "type": "condo",
+        "price_per_night": 294.77,
+        "features": [
+            "hot tub",
+            "BBQ",
+            "fireplace",
+            "canoe",
+            "AC"
+        ],
+        "tags": [
+            "romantic",
+            "city"
+        ]
+    },
+    {
+        "property_id": 110,
+        "name": "Sunny Chalet",
+        "location": "Kelowna, British Columbia",
+        "type": "apartment",
+        "price_per_night": 96.58,
+        "features": [
+            "pet-friendly",
+            "BBQ",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "quiet",
+            "remote",
+            "city"
+        ]
+    },
+    {
+        "property_id": 111,
+        "name": "Peaceful Cottage",
+        "location": "Saskatoon, Saskatchewan",
+        "type": "bungalow",
+        "price_per_night": 413.13,
+        "features": [
+            "garden",
+            "pet-friendly"
+        ],
+        "tags": [
+            "nature",
+            "romantic",
+            "city"
+        ]
+    },
+    {
+        "property_id": 112,
+        "name": "Secluded Farmhouse",
+        "location": "Muskoka, Ontario",
+        "type": "bungalow",
+        "price_per_night": 118.95,
+        "features": [
+            "pet-friendly",
+            "garden"
+        ],
+        "tags": [
+            "quiet",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 113,
+        "name": "Cozy House",
+        "location": "Muskoka, Ontario",
+        "type": "apartment",
+        "price_per_night": 174.57,
+        "features": [
+            "WiFi",
+            "dock"
+        ],
+        "tags": [
+            "adventure",
+            "luxury",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 114,
+        "name": "Peaceful Lodge",
+        "location": "Halifax, Nova Scotia",
+        "type": "condo",
+        "price_per_night": 296.35,
+        "features": [
+            "BBQ",
+            "kayak",
+            "canoe"
+        ],
+        "tags": [
+            "beach",
+            "family-friendly",
+            "luxury",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 115,
+        "name": "Lakeview House",
+        "location": "Quebec City, Quebec",
+        "type": "condo",
+        "price_per_night": 208.63,
+        "features": [
+            "BBQ",
+            "dock",
+            "canoe"
+        ],
+        "tags": [
+            "nature",
+            "city",
+            "adventure",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 116,
+        "name": "Lakeview Lodge",
+        "location": "Victoria, British Columbia",
+        "type": "farmhouse",
+        "price_per_night": 63.4,
+        "features": [
+            "hot tub",
+            "garden",
+            "WiFi"
+        ],
+        "tags": [
+            "beach",
+            "nature",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 117,
+        "name": "Charming Apartment",
+        "location": "Halifax, Nova Scotia",
+        "type": "house",
+        "price_per_night": 309.89,
+        "features": [
+            "kayak",
+            "fireplace",
+            "AC",
+            "hot tub",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "quiet",
+            "remote",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 118,
+        "name": "Modern Bungalow",
+        "location": "Edmonton, Alberta",
+        "type": "bungalow",
+        "price_per_night": 458.69,
+        "features": [
+            "hot tub",
+            "pet-friendly",
+            "kayak"
+        ],
+        "tags": [
+            "quiet",
+            "romantic",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 119,
+        "name": "Charming Farmhouse",
+        "location": "Calgary, Alberta",
+        "type": "condo",
+        "price_per_night": 194.18,
+        "features": [
+            "pet-friendly",
+            "WiFi",
+            "dock",
+            "hot tub"
+        ],
+        "tags": [
+            "mountain",
+            "city"
+        ]
+    },
+    {
+        "property_id": 120,
+        "name": "Sunny Farmhouse",
+        "location": "Whistler, British Columbia",
+        "type": "bungalow",
+        "price_per_night": 446.06,
+        "features": [
+            "pet-friendly",
+            "kayak"
+        ],
+        "tags": [
+            "beach",
+            "luxury",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 121,
+        "name": "Modern House",
+        "location": "Tofino, British Columbia",
+        "type": "farmhouse",
+        "price_per_night": 143.14,
+        "features": [
+            "dock",
+            "canoe",
+            "WiFi",
+            "fireplace",
+            "kayak"
+        ],
+        "tags": [
+            "remote",
+            "city",
+            "romantic",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 122,
+        "name": "Peaceful Cabin",
+        "location": "Halifax, Nova Scotia",
+        "type": "bungalow",
+        "price_per_night": 429.34,
+        "features": [
+            "canoe",
+            "kayak",
+            "fireplace",
+            "AC",
+            "dock"
+        ],
+        "tags": [
+            "luxury",
+            "quiet",
+            "nightlife",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 123,
+        "name": "Rustic Lodge",
+        "location": "Tofino, British Columbia",
+        "type": "farmhouse",
+        "price_per_night": 244.75,
+        "features": [
+            "garden",
+            "ski-in/ski-out",
+            "pet-friendly",
+            "dock"
+        ],
+        "tags": [
+            "adventure",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 124,
+        "name": "Cozy Chalet",
+        "location": "Prince Edward Island, PEI",
+        "type": "house",
+        "price_per_night": 132.51,
+        "features": [
+            "canoe",
+            "BBQ",
+            "fireplace",
+            "AC",
+            "dock"
+        ],
+        "tags": [
+            "family-friendly",
+            "nightlife",
+            "mountain"
+        ]
+    },
+    {
+        "property_id": 125,
+        "name": "Secluded Apartment",
+        "location": "Montreal, Quebec",
+        "type": "bungalow",
+        "price_per_night": 208.02,
+        "features": [
+            "hot tub",
+            "canoe"
+        ],
+        "tags": [
+            "nightlife",
+            "mountain",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 126,
+        "name": "Lakeview House",
+        "location": "Kelowna, British Columbia",
+        "type": "bungalow",
+        "price_per_night": 82.18,
+        "features": [
+            "AC",
+            "garden",
+            "kayak",
+            "canoe"
+        ],
+        "tags": [
+            "family-friendly",
+            "nightlife",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 127,
+        "name": "Lakeview House",
+        "location": "Toronto, Ontario",
+        "type": "lodge",
+        "price_per_night": 168.56,
+        "features": [
+            "WiFi",
+            "garden",
+            "pet-friendly",
+            "kayak",
+            "dock"
+        ],
+        "tags": [
+            "quiet",
+            "nightlife",
+            "family-friendly"
+        ]
+    },
+    {
+        "property_id": 128,
+        "name": "Cozy Cottage",
+        "location": "Halifax, Nova Scotia",
+        "type": "farmhouse",
+        "price_per_night": 471.36,
+        "features": [
+            "WiFi",
+            "fireplace",
+            "pet-friendly",
+            "dock",
+            "garden"
+        ],
+        "tags": [
+            "romantic",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 129,
+        "name": "Peaceful Cottage",
+        "location": "Edmonton, Alberta",
+        "type": "apartment",
+        "price_per_night": 218.4,
+        "features": [
+            "WiFi",
+            "ski-in/ski-out",
+            "BBQ"
+        ],
+        "tags": [
+            "nature",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 130,
+        "name": "Charming Chalet",
+        "location": "Quebec City, Quebec",
+        "type": "cabin",
+        "price_per_night": 160.47,
+        "features": [
+            "fireplace",
+            "hot tub",
+            "garden"
+        ],
+        "tags": [
+            "mountain",
+            "quiet",
+            "lake",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 131,
+        "name": "Peaceful Chalet",
+        "location": "Halifax, Nova Scotia",
+        "type": "chalet",
+        "price_per_night": 286.87,
+        "features": [
+            "ski-in/ski-out",
+            "hot tub",
+            "BBQ",
+            "AC",
+            "canoe"
+        ],
+        "tags": [
+            "family-friendly",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 132,
+        "name": "Sunny House",
+        "location": "Montreal, Quebec",
+        "type": "farmhouse",
+        "price_per_night": 410.21,
+        "features": [
+            "AC",
+            "pet-friendly"
+        ],
+        "tags": [
+            "romantic",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 133,
+        "name": "Urban House",
+        "location": "Winnipeg, Manitoba",
+        "type": "bungalow",
+        "price_per_night": 106.64,
+        "features": [
+            "hot tub",
+            "fireplace",
+            "AC",
+            "garden",
+            "canoe"
+        ],
+        "tags": [
+            "adventure",
+            "lake",
+            "nature",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 134,
+        "name": "Peaceful Apartment",
+        "location": "Halifax, Nova Scotia",
+        "type": "apartment",
+        "price_per_night": 68.56,
+        "features": [
+            "WiFi",
+            "ski-in/ski-out",
+            "fireplace",
+            "hot tub"
+        ],
+        "tags": [
+            "luxury",
+            "city",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 135,
+        "name": "Lakeview Bungalow",
+        "location": "Saskatoon, Saskatchewan",
+        "type": "lodge",
+        "price_per_night": 331.17,
+        "features": [
+            "pet-friendly",
+            "ski-in/ski-out",
+            "AC",
+            "kayak",
+            "canoe"
+        ],
+        "tags": [
+            "family-friendly",
+            "mountain",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 136,
+        "name": "Urban Condo",
+        "location": "Winnipeg, Manitoba",
+        "type": "lodge",
+        "price_per_night": 180.51,
+        "features": [
+            "hot tub",
+            "ski-in/ski-out",
+            "WiFi",
+            "BBQ",
+            "fireplace"
+        ],
+        "tags": [
+            "nightlife",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 137,
+        "name": "Peaceful Apartment",
+        "location": "Montreal, Quebec",
+        "type": "cottage",
+        "price_per_night": 264.77,
+        "features": [
+            "kayak",
+            "ski-in/ski-out",
+            "AC",
+            "garden",
+            "hot tub"
+        ],
+        "tags": [
+            "lake",
+            "nature",
+            "family-friendly",
+            "city"
+        ]
+    },
+    {
+        "property_id": 138,
+        "name": "Charming Cottage",
+        "location": "Halifax, Nova Scotia",
+        "type": "bungalow",
+        "price_per_night": 155.25,
+        "features": [
+            "pet-friendly",
+            "kayak",
+            "garden",
+            "fireplace",
+            "canoe"
+        ],
+        "tags": [
+            "nightlife",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 139,
+        "name": "Modern House",
+        "location": "Prince Edward Island, PEI",
+        "type": "house",
+        "price_per_night": 344.78,
+        "features": [
+            "garden",
+            "AC",
+            "ski-in/ski-out",
+            "hot tub",
+            "WiFi"
+        ],
+        "tags": [
+            "nature",
+            "mountain",
+            "quiet",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 140,
+        "name": "Modern Lodge",
+        "location": "Kelowna, British Columbia",
+        "type": "chalet",
+        "price_per_night": 312.19,
+        "features": [
+            "kayak",
+            "fireplace",
+            "WiFi"
+        ],
+        "tags": [
+            "luxury",
+            "remote",
+            "family-friendly"
+        ]
+    },
+    {
+        "property_id": 141,
+        "name": "Charming Chalet",
+        "location": "Toronto, Ontario",
+        "type": "farmhouse",
+        "price_per_night": 491.75,
+        "features": [
+            "WiFi",
+            "dock",
+            "garden",
+            "ski-in/ski-out",
+            "pet-friendly"
+        ],
+        "tags": [
+            "luxury",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 142,
+        "name": "Luxury Cabin",
+        "location": "Banff, Alberta",
+        "type": "apartment",
+        "price_per_night": 170.23,
+        "features": [
+            "AC",
+            "hot tub",
+            "fireplace"
+        ],
+        "tags": [
+            "adventure",
+            "beach",
+            "romantic",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 143,
+        "name": "Urban Lodge",
+        "location": "Prince Edward Island, PEI",
+        "type": "cottage",
+        "price_per_night": 105.72,
+        "features": [
+            "hot tub",
+            "ski-in/ski-out",
+            "WiFi"
+        ],
+        "tags": [
+            "family-friendly",
+            "luxury",
+            "mountain"
+        ]
+    },
+    {
+        "property_id": 144,
+        "name": "Sunny Farmhouse",
+        "location": "Jasper, Alberta",
+        "type": "farmhouse",
+        "price_per_night": 358.26,
+        "features": [
+            "pet-friendly",
+            "dock",
+            "kayak",
+            "BBQ",
+            "fireplace"
+        ],
+        "tags": [
+            "nature",
+            "beach",
+            "nightlife",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 145,
+        "name": "Sunny Farmhouse",
+        "location": "Tofino, British Columbia",
+        "type": "farmhouse",
+        "price_per_night": 325.3,
+        "features": [
+            "AC",
+            "BBQ"
+        ],
+        "tags": [
+            "city",
+            "remote",
+            "lake",
+            "nightlife"
+        ]
+    },
+    {
+        "property_id": 146,
+        "name": "Secluded Farmhouse",
+        "location": "Banff, Alberta",
+        "type": "chalet",
+        "price_per_night": 389.67,
+        "features": [
+            "canoe",
+            "garden",
+            "hot tub"
+        ],
+        "tags": [
+            "lake",
+            "city",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 147,
+        "name": "Lakeview Cottage",
+        "location": "Prince Edward Island, PEI",
+        "type": "cabin",
+        "price_per_night": 163.47,
+        "features": [
+            "pet-friendly",
+            "fireplace",
+            "dock",
+            "garden",
+            "WiFi"
+        ],
+        "tags": [
+            "adventure",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 148,
+        "name": "Luxury Condo",
+        "location": "Lake Louise, Alberta",
+        "type": "house",
+        "price_per_night": 267.29,
+        "features": [
+            "AC",
+            "WiFi"
+        ],
+        "tags": [
+            "luxury",
+            "remote",
+            "city",
+            "mountain"
+        ]
+    },
+    {
+        "property_id": 149,
+        "name": "Charming Farmhouse",
+        "location": "Banff, Alberta",
+        "type": "cabin",
+        "price_per_night": 110.69,
+        "features": [
+            "hot tub",
+            "AC",
+            "ski-in/ski-out",
+            "pet-friendly"
+        ],
+        "tags": [
+            "nature",
+            "nightlife",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 150,
+        "name": "Rustic Chalet",
+        "location": "Montreal, Quebec",
+        "type": "house",
+        "price_per_night": 119.07,
+        "features": [
+            "fireplace",
+            "garden",
+            "AC",
+            "dock"
+        ],
+        "tags": [
+            "nightlife",
+            "family-friendly",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 151,
+        "name": "Sunny Apartment",
+        "location": "Calgary, Alberta",
+        "type": "lodge",
+        "price_per_night": 212.09,
+        "features": [
+            "pet-friendly",
+            "fireplace",
+            "canoe",
+            "dock"
+        ],
+        "tags": [
+            "family-friendly",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 152,
+        "name": "Charming Condo",
+        "location": "Whistler, British Columbia",
+        "type": "lodge",
+        "price_per_night": 92.2,
+        "features": [
+            "canoe",
+            "ski-in/ski-out",
+            "garden",
+            "kayak"
+        ],
+        "tags": [
+            "nightlife",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 153,
+        "name": "Lakeview Cabin",
+        "location": "Lake Louise, Alberta",
+        "type": "lodge",
+        "price_per_night": 347.43,
+        "features": [
+            "pet-friendly",
+            "AC",
+            "ski-in/ski-out",
+            "WiFi"
+        ],
+        "tags": [
+            "luxury",
+            "romantic",
+            "family-friendly"
+        ]
+    },
+    {
+        "property_id": 154,
+        "name": "Sunny Farmhouse",
+        "location": "Kelowna, British Columbia",
+        "type": "cottage",
+        "price_per_night": 121.95,
+        "features": [
+            "BBQ",
+            "AC",
+            "canoe",
+            "garden"
+        ],
+        "tags": [
+            "family-friendly",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 155,
+        "name": "Cozy Farmhouse",
+        "location": "Jasper, Alberta",
+        "type": "cabin",
+        "price_per_night": 206.22,
+        "features": [
+            "BBQ",
+            "pet-friendly",
+            "garden"
+        ],
+        "tags": [
+            "quiet",
+            "lake",
+            "family-friendly",
+            "nightlife"
+        ]
+    },
+    {
+        "property_id": 156,
+        "name": "Luxury Bungalow",
+        "location": "Toronto, Ontario",
+        "type": "chalet",
+        "price_per_night": 301.27,
+        "features": [
+            "AC",
+            "BBQ"
+        ],
+        "tags": [
+            "beach",
+            "luxury",
+            "family-friendly",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 157,
+        "name": "Modern Cabin",
+        "location": "Victoria, British Columbia",
+        "type": "bungalow",
+        "price_per_night": 401.65,
+        "features": [
+            "hot tub",
+            "fireplace",
+            "WiFi",
+            "AC",
+            "canoe"
+        ],
+        "tags": [
+            "luxury",
+            "remote",
+            "nature",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 158,
+        "name": "Modern House",
+        "location": "Whistler, British Columbia",
+        "type": "bungalow",
+        "price_per_night": 315.39,
+        "features": [
+            "BBQ",
+            "AC",
+            "dock",
+            "WiFi",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "remote",
+            "family-friendly"
+        ]
+    },
+    {
+        "property_id": 159,
+        "name": "Urban Apartment",
+        "location": "Quebec City, Quebec",
+        "type": "cottage",
+        "price_per_night": 224.36,
+        "features": [
+            "garden",
+            "ski-in/ski-out",
+            "BBQ",
+            "WiFi"
+        ],
+        "tags": [
+            "luxury",
+            "quiet",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 160,
+        "name": "Secluded Condo",
+        "location": "Muskoka, Ontario",
+        "type": "apartment",
+        "price_per_night": 125.44,
+        "features": [
+            "pet-friendly",
+            "canoe"
+        ],
+        "tags": [
+            "city",
+            "mountain",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 161,
+        "name": "Peaceful Condo",
+        "location": "Ottawa, Ontario",
+        "type": "house",
+        "price_per_night": 314.26,
+        "features": [
+            "dock",
+            "BBQ",
+            "hot tub",
+            "AC",
+            "pet-friendly"
+        ],
+        "tags": [
+            "family-friendly",
+            "beach",
+            "nature",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 162,
+        "name": "Secluded Cabin",
+        "location": "Tofino, British Columbia",
+        "type": "farmhouse",
+        "price_per_night": 151.01,
+        "features": [
+            "garden",
+            "pet-friendly",
+            "kayak",
+            "WiFi"
+        ],
+        "tags": [
+            "remote",
+            "quiet",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 163,
+        "name": "Rustic Cottage",
+        "location": "Toronto, Ontario",
+        "type": "bungalow",
+        "price_per_night": 150.57,
+        "features": [
+            "WiFi",
+            "dock",
+            "BBQ",
+            "hot tub"
+        ],
+        "tags": [
+            "city",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 164,
+        "name": "Peaceful Cabin",
+        "location": "Tofino, British Columbia",
+        "type": "condo",
+        "price_per_night": 101.41,
+        "features": [
+            "ski-in/ski-out",
+            "WiFi",
+            "BBQ",
+            "kayak",
+            "dock"
+        ],
+        "tags": [
+            "remote",
+            "nightlife",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 165,
+        "name": "Peaceful Apartment",
+        "location": "Prince Edward Island, PEI",
+        "type": "apartment",
+        "price_per_night": 141.72,
+        "features": [
+            "hot tub",
+            "WiFi",
+            "garden",
+            "kayak",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "nature",
+            "city",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 166,
+        "name": "Secluded House",
+        "location": "Ottawa, Ontario",
+        "type": "bungalow",
+        "price_per_night": 75.64,
+        "features": [
+            "ski-in/ski-out",
+            "fireplace",
+            "BBQ",
+            "AC"
+        ],
+        "tags": [
+            "adventure",
+            "luxury",
+            "lake",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 167,
+        "name": "Modern Lodge",
+        "location": "Winnipeg, Manitoba",
+        "type": "apartment",
+        "price_per_night": 109.63,
+        "features": [
+            "canoe",
+            "hot tub",
+            "WiFi",
+            "kayak",
+            "fireplace"
+        ],
+        "tags": [
+            "family-friendly",
+            "beach",
+            "remote",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 168,
+        "name": "Peaceful Cottage",
+        "location": "Victoria, British Columbia",
+        "type": "apartment",
+        "price_per_night": 197.24,
+        "features": [
+            "fireplace",
+            "ski-in/ski-out",
+            "garden"
+        ],
+        "tags": [
+            "city",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 169,
+        "name": "Luxury Apartment",
+        "location": "Jasper, Alberta",
+        "type": "cottage",
+        "price_per_night": 298.03,
+        "features": [
+            "BBQ",
+            "pet-friendly",
+            "WiFi",
+            "garden"
+        ],
+        "tags": [
+            "family-friendly",
+            "nightlife"
+        ]
+    },
+    {
+        "property_id": 170,
+        "name": "Sunny Farmhouse",
+        "location": "Edmonton, Alberta",
+        "type": "house",
+        "price_per_night": 175.57,
+        "features": [
+            "AC",
+            "canoe",
+            "dock",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "nature",
+            "city",
+            "lake",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 171,
+        "name": "Urban House",
+        "location": "Whistler, British Columbia",
+        "type": "lodge",
+        "price_per_night": 279.14,
+        "features": [
+            "garden",
+            "dock"
+        ],
+        "tags": [
+            "adventure",
+            "beach",
+            "mountain"
+        ]
+    },
+    {
+        "property_id": 172,
+        "name": "Cozy House",
+        "location": "Victoria, British Columbia",
+        "type": "house",
+        "price_per_night": 123.22,
+        "features": [
+            "canoe",
+            "ski-in/ski-out",
+            "AC",
+            "BBQ"
+        ],
+        "tags": [
+            "adventure",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 173,
+        "name": "Cozy Bungalow",
+        "location": "Toronto, Ontario",
+        "type": "condo",
+        "price_per_night": 94.55,
+        "features": [
+            "pet-friendly",
+            "BBQ"
+        ],
+        "tags": [
+            "family-friendly",
+            "adventure",
+            "nightlife"
+        ]
+    },
+    {
+        "property_id": 174,
+        "name": "Urban House",
+        "location": "Winnipeg, Manitoba",
+        "type": "farmhouse",
+        "price_per_night": 229.34,
+        "features": [
+            "AC",
+            "fireplace",
+            "WiFi",
+            "kayak",
+            "garden"
+        ],
+        "tags": [
+            "quiet",
+            "nature",
+            "remote",
+            "family-friendly"
+        ]
+    },
+    {
+        "property_id": 175,
+        "name": "Charming Cabin",
+        "location": "Winnipeg, Manitoba",
+        "type": "chalet",
+        "price_per_night": 420.22,
+        "features": [
+            "kayak",
+            "fireplace",
+            "pet-friendly"
+        ],
+        "tags": [
+            "luxury",
+            "nightlife",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 176,
+        "name": "Secluded Chalet",
+        "location": "Montreal, Quebec",
+        "type": "condo",
+        "price_per_night": 290.44,
+        "features": [
+            "AC",
+            "WiFi",
+            "garden",
+            "BBQ"
+        ],
+        "tags": [
+            "city",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 177,
+        "name": "Modern Chalet",
+        "location": "Tofino, British Columbia",
+        "type": "house",
+        "price_per_night": 311.71,
+        "features": [
+            "fireplace",
+            "kayak"
+        ],
+        "tags": [
+            "beach",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 178,
+        "name": "Modern Lodge",
+        "location": "Edmonton, Alberta",
+        "type": "house",
+        "price_per_night": 276.33,
+        "features": [
+            "WiFi",
+            "pet-friendly",
+            "ski-in/ski-out",
+            "fireplace"
+        ],
+        "tags": [
+            "luxury",
+            "quiet",
+            "family-friendly",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 179,
+        "name": "Modern Farmhouse",
+        "location": "Calgary, Alberta",
+        "type": "cabin",
+        "price_per_night": 226.93,
+        "features": [
+            "dock",
+            "WiFi",
+            "kayak",
+            "ski-in/ski-out",
+            "fireplace"
+        ],
+        "tags": [
+            "family-friendly",
+            "romantic",
+            "lake",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 180,
+        "name": "Modern Cabin",
+        "location": "Montreal, Quebec",
+        "type": "house",
+        "price_per_night": 103.82,
+        "features": [
+            "ski-in/ski-out",
+            "garden",
+            "dock",
+            "fireplace"
+        ],
+        "tags": [
+            "quiet",
+            "family-friendly",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 181,
+        "name": "Luxury Chalet",
+        "location": "Jasper, Alberta",
+        "type": "cabin",
+        "price_per_night": 96.85,
+        "features": [
+            "pet-friendly",
+            "ski-in/ski-out",
+            "hot tub"
+        ],
+        "tags": [
+            "mountain",
+            "family-friendly",
+            "beach",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 182,
+        "name": "Cozy House",
+        "location": "Toronto, Ontario",
+        "type": "apartment",
+        "price_per_night": 64.96,
+        "features": [
+            "ski-in/ski-out",
+            "canoe",
+            "WiFi",
+            "AC"
+        ],
+        "tags": [
+            "nature",
+            "city",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 183,
+        "name": "Luxury Apartment",
+        "location": "Halifax, Nova Scotia",
+        "type": "house",
+        "price_per_night": 291.79,
+        "features": [
+            "garden",
+            "fireplace",
+            "canoe",
+            "pet-friendly",
+            "WiFi"
+        ],
+        "tags": [
+            "nature",
+            "nightlife",
+            "remote",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 184,
+        "name": "Urban Cottage",
+        "location": "Toronto, Ontario",
+        "type": "condo",
+        "price_per_night": 242.96,
+        "features": [
+            "BBQ",
+            "ski-in/ski-out",
+            "WiFi",
+            "pet-friendly"
+        ],
+        "tags": [
+            "beach",
+            "city"
+        ]
+    },
+    {
+        "property_id": 185,
+        "name": "Cozy Cabin",
+        "location": "Halifax, Nova Scotia",
+        "type": "apartment",
+        "price_per_night": 105.23,
+        "features": [
+            "BBQ",
+            "kayak",
+            "hot tub"
+        ],
+        "tags": [
+            "adventure",
+            "mountain",
+            "remote",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 186,
+        "name": "Peaceful Apartment",
+        "location": "Tofino, British Columbia",
+        "type": "condo",
+        "price_per_night": 82.53,
+        "features": [
+            "fireplace",
+            "WiFi",
+            "AC",
+            "dock",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "beach",
+            "luxury",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 187,
+        "name": "Peaceful Chalet",
+        "location": "Vancouver, British Columbia",
+        "type": "cottage",
+        "price_per_night": 349.61,
+        "features": [
+            "BBQ",
+            "garden"
+        ],
+        "tags": [
+            "nature",
+            "nightlife"
+        ]
+    },
+    {
+        "property_id": 188,
+        "name": "Luxury Apartment",
+        "location": "Halifax, Nova Scotia",
+        "type": "farmhouse",
+        "price_per_night": 204.91,
+        "features": [
+            "dock",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "lake",
+            "city",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 189,
+        "name": "Peaceful House",
+        "location": "Halifax, Nova Scotia",
+        "type": "apartment",
+        "price_per_night": 243.69,
+        "features": [
+            "hot tub",
+            "kayak",
+            "fireplace",
+            "pet-friendly",
+            "WiFi"
+        ],
+        "tags": [
+            "nightlife",
+            "romantic",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 190,
+        "name": "Cozy Bungalow",
+        "location": "Prince Edward Island, PEI",
+        "type": "farmhouse",
+        "price_per_night": 194.34,
+        "features": [
+            "hot tub",
+            "AC"
+        ],
+        "tags": [
+            "city",
+            "adventure",
+            "mountain"
+        ]
+    },
+    {
+        "property_id": 191,
+        "name": "Sunny Apartment",
+        "location": "Ottawa, Ontario",
+        "type": "cottage",
+        "price_per_night": 345.9,
+        "features": [
+            "BBQ",
+            "ski-in/ski-out",
+            "WiFi",
+            "garden",
+            "hot tub"
+        ],
+        "tags": [
+            "nightlife",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 192,
+        "name": "Peaceful Chalet",
+        "location": "Toronto, Ontario",
+        "type": "farmhouse",
+        "price_per_night": 153.17,
+        "features": [
+            "canoe",
+            "kayak"
+        ],
+        "tags": [
+            "luxury",
+            "city",
+            "remote",
+            "nightlife"
+        ]
+    },
+    {
+        "property_id": 193,
+        "name": "Urban Chalet",
+        "location": "Prince Edward Island, PEI",
+        "type": "apartment",
+        "price_per_night": 66.07,
+        "features": [
+            "hot tub",
+            "ski-in/ski-out",
+            "fireplace",
+            "dock"
+        ],
+        "tags": [
+            "remote",
+            "nightlife"
+        ]
+    },
+    {
+        "property_id": 194,
+        "name": "Lakeview Cabin",
+        "location": "Calgary, Alberta",
+        "type": "apartment",
+        "price_per_night": 149.3,
+        "features": [
+            "ski-in/ski-out",
+            "WiFi"
+        ],
+        "tags": [
+            "romantic",
+            "lake",
+            "quiet",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 195,
+        "name": "Sunny Chalet",
+        "location": "Lake Louise, Alberta",
+        "type": "chalet",
+        "price_per_night": 300.91,
+        "features": [
+            "WiFi",
+            "garden",
+            "pet-friendly",
+            "BBQ"
+        ],
+        "tags": [
+            "remote",
+            "luxury",
+            "mountain"
+        ]
+    },
+    {
+        "property_id": 196,
+        "name": "Secluded Lodge",
+        "location": "Muskoka, Ontario",
+        "type": "house",
+        "price_per_night": 230.09,
+        "features": [
+            "ski-in/ski-out",
+            "pet-friendly"
+        ],
+        "tags": [
+            "luxury",
+            "beach",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 197,
+        "name": "Sunny Bungalow",
+        "location": "Whistler, British Columbia",
+        "type": "farmhouse",
+        "price_per_night": 402.21,
+        "features": [
+            "ski-in/ski-out",
+            "canoe"
+        ],
+        "tags": [
+            "nightlife",
+            "romantic",
+            "family-friendly",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 198,
+        "name": "Peaceful House",
+        "location": "Niagara-on-the-Lake, Ontario",
+        "type": "condo",
+        "price_per_night": 235.22,
+        "features": [
+            "kayak",
+            "BBQ",
+            "garden",
+            "WiFi"
+        ],
+        "tags": [
+            "nightlife",
+            "city",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 199,
+        "name": "Secluded Chalet",
+        "location": "Edmonton, Alberta",
+        "type": "house",
+        "price_per_night": 305.43,
+        "features": [
+            "hot tub",
+            "pet-friendly",
+            "kayak",
+            "AC",
+            "canoe"
+        ],
+        "tags": [
+            "quiet",
+            "lake",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 200,
+        "name": "Cozy Apartment",
+        "location": "Quebec City, Quebec",
+        "type": "farmhouse",
+        "price_per_night": 424.22,
+        "features": [
+            "hot tub",
+            "ski-in/ski-out",
+            "BBQ",
+            "pet-friendly",
+            "garden"
+        ],
+        "tags": [
+            "romantic",
+            "family-friendly"
+        ]
+    },
+    {
+        "property_id": 201,
+        "name": "Urban Lodge",
+        "location": "Quebec City, Quebec",
+        "type": "apartment",
+        "price_per_night": 232.11,
+        "features": [
+            "pet-friendly",
+            "ski-in/ski-out",
+            "AC"
+        ],
+        "tags": [
+            "luxury",
+            "remote",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 202,
+        "name": "Luxury House",
+        "location": "Niagara-on-the-Lake, Ontario",
+        "type": "bungalow",
+        "price_per_night": 490.16,
+        "features": [
+            "garden",
+            "WiFi",
+            "kayak"
+        ],
+        "tags": [
+            "quiet",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 203,
+        "name": "Sunny Apartment",
+        "location": "Kelowna, British Columbia",
+        "type": "lodge",
+        "price_per_night": 269.0,
+        "features": [
+            "dock",
+            "BBQ"
+        ],
+        "tags": [
+            "adventure",
+            "city",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 204,
+        "name": "Charming Bungalow",
+        "location": "Whistler, British Columbia",
+        "type": "chalet",
+        "price_per_night": 364.7,
+        "features": [
+            "ski-in/ski-out",
+            "garden",
+            "kayak"
+        ],
+        "tags": [
+            "luxury",
+            "mountain",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 205,
+        "name": "Cozy Apartment",
+        "location": "Tofino, British Columbia",
+        "type": "bungalow",
+        "price_per_night": 131.54,
+        "features": [
+            "ski-in/ski-out",
+            "canoe",
+            "hot tub",
+            "dock"
+        ],
+        "tags": [
+            "quiet",
+            "adventure",
+            "family-friendly",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 206,
+        "name": "Peaceful Bungalow",
+        "location": "Prince Edward Island, PEI",
+        "type": "farmhouse",
+        "price_per_night": 369.08,
+        "features": [
+            "fireplace",
+            "AC",
+            "dock",
+            "canoe"
+        ],
+        "tags": [
+            "family-friendly",
+            "luxury",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 207,
+        "name": "Lakeview Bungalow",
+        "location": "Jasper, Alberta",
+        "type": "cabin",
+        "price_per_night": 124.3,
+        "features": [
+            "hot tub",
+            "dock",
+            "ski-in/ski-out",
+            "fireplace",
+            "garden"
+        ],
+        "tags": [
+            "lake",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 208,
+        "name": "Lakeview Cabin",
+        "location": "Victoria, British Columbia",
+        "type": "bungalow",
+        "price_per_night": 435.47,
+        "features": [
+            "canoe",
+            "dock",
+            "kayak"
+        ],
+        "tags": [
+            "romantic",
+            "luxury",
+            "family-friendly",
+            "city"
+        ]
+    },
+    {
+        "property_id": 209,
+        "name": "Lakeview Cottage",
+        "location": "Whistler, British Columbia",
+        "type": "cabin",
+        "price_per_night": 234.7,
+        "features": [
+            "fireplace",
+            "AC",
+            "kayak"
+        ],
+        "tags": [
+            "quiet",
+            "family-friendly",
+            "nightlife",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 210,
+        "name": "Urban Apartment",
+        "location": "Victoria, British Columbia",
+        "type": "chalet",
+        "price_per_night": 378.34,
+        "features": [
+            "pet-friendly",
+            "AC",
+            "hot tub",
+            "dock"
+        ],
+        "tags": [
+            "nature",
+            "mountain",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 211,
+        "name": "Modern Lodge",
+        "location": "Edmonton, Alberta",
+        "type": "lodge",
+        "price_per_night": 88.74,
+        "features": [
+            "kayak",
+            "canoe",
+            "BBQ",
+            "AC"
+        ],
+        "tags": [
+            "beach",
+            "city"
+        ]
+    },
+    {
+        "property_id": 212,
+        "name": "Cozy Farmhouse",
+        "location": "Halifax, Nova Scotia",
+        "type": "cabin",
+        "price_per_night": 247.38,
+        "features": [
+            "ski-in/ski-out",
+            "pet-friendly",
+            "AC",
+            "dock"
+        ],
+        "tags": [
+            "beach",
+            "family-friendly"
+        ]
+    },
+    {
+        "property_id": 213,
+        "name": "Peaceful House",
+        "location": "Quebec City, Quebec",
+        "type": "farmhouse",
+        "price_per_night": 332.38,
+        "features": [
+            "hot tub",
+            "BBQ",
+            "AC"
+        ],
+        "tags": [
+            "nature",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 214,
+        "name": "Secluded House",
+        "location": "Vancouver, British Columbia",
+        "type": "condo",
+        "price_per_night": 114.67,
+        "features": [
+            "canoe",
+            "fireplace",
+            "ski-in/ski-out",
+            "dock"
+        ],
+        "tags": [
+            "adventure",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 215,
+        "name": "Rustic Farmhouse",
+        "location": "Quebec City, Quebec",
+        "type": "apartment",
+        "price_per_night": 195.76,
+        "features": [
+            "AC",
+            "WiFi",
+            "fireplace",
+            "ski-in/ski-out",
+            "dock"
+        ],
+        "tags": [
+            "romantic",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 216,
+        "name": "Cozy House",
+        "location": "Prince Edward Island, PEI",
+        "type": "cottage",
+        "price_per_night": 242.08,
+        "features": [
+            "ski-in/ski-out",
+            "canoe",
+            "kayak",
+            "hot tub"
+        ],
+        "tags": [
+            "nature",
+            "family-friendly",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 217,
+        "name": "Sunny Bungalow",
+        "location": "Muskoka, Ontario",
+        "type": "condo",
+        "price_per_night": 99.22,
+        "features": [
+            "WiFi",
+            "kayak"
+        ],
+        "tags": [
+            "mountain",
+            "romantic",
+            "city"
+        ]
+    },
+    {
+        "property_id": 218,
+        "name": "Cozy Bungalow",
+        "location": "Whistler, British Columbia",
+        "type": "house",
+        "price_per_night": 317.69,
+        "features": [
+            "fireplace",
+            "garden",
+            "kayak",
+            "pet-friendly",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "romantic",
+            "beach",
+            "nightlife",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 219,
+        "name": "Secluded Condo",
+        "location": "Lake Louise, Alberta",
+        "type": "cabin",
+        "price_per_night": 196.81,
+        "features": [
+            "dock",
+            "garden",
+            "canoe"
+        ],
+        "tags": [
+            "nightlife",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 220,
+        "name": "Urban Cottage",
+        "location": "Halifax, Nova Scotia",
+        "type": "chalet",
+        "price_per_night": 473.41,
+        "features": [
+            "fireplace",
+            "canoe",
+            "BBQ",
+            "pet-friendly",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "lake",
+            "luxury",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 221,
+        "name": "Peaceful Condo",
+        "location": "Edmonton, Alberta",
+        "type": "apartment",
+        "price_per_night": 210.15,
+        "features": [
+            "hot tub",
+            "ski-in/ski-out",
+            "BBQ",
+            "dock",
+            "AC"
+        ],
+        "tags": [
+            "adventure",
+            "city",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 222,
+        "name": "Secluded House",
+        "location": "Whistler, British Columbia",
+        "type": "farmhouse",
+        "price_per_night": 183.12,
+        "features": [
+            "BBQ",
+            "canoe",
+            "WiFi"
+        ],
+        "tags": [
+            "nature",
+            "family-friendly",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 223,
+        "name": "Secluded Condo",
+        "location": "Calgary, Alberta",
+        "type": "cottage",
+        "price_per_night": 336.15,
+        "features": [
+            "ski-in/ski-out",
+            "BBQ",
+            "dock",
+            "fireplace"
+        ],
+        "tags": [
+            "family-friendly",
+            "adventure",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 224,
+        "name": "Rustic Bungalow",
+        "location": "Edmonton, Alberta",
+        "type": "cabin",
+        "price_per_night": 215.11,
+        "features": [
+            "hot tub",
+            "BBQ",
+            "garden",
+            "kayak",
+            "dock"
+        ],
+        "tags": [
+            "nightlife",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 225,
+        "name": "Cozy Cottage",
+        "location": "Tofino, British Columbia",
+        "type": "lodge",
+        "price_per_night": 456.89,
+        "features": [
+            "dock",
+            "fireplace"
+        ],
+        "tags": [
+            "mountain",
+            "adventure",
+            "lake",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 226,
+        "name": "Peaceful Bungalow",
+        "location": "Saskatoon, Saskatchewan",
+        "type": "chalet",
+        "price_per_night": 398.21,
+        "features": [
+            "dock",
+            "canoe",
+            "WiFi",
+            "fireplace",
+            "garden"
+        ],
+        "tags": [
+            "remote",
+            "nightlife",
+            "quiet",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 227,
+        "name": "Sunny Chalet",
+        "location": "Niagara-on-the-Lake, Ontario",
+        "type": "condo",
+        "price_per_night": 186.87,
+        "features": [
+            "dock",
+            "kayak",
+            "BBQ",
+            "pet-friendly",
+            "hot tub"
+        ],
+        "tags": [
+            "family-friendly",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 228,
+        "name": "Lakeview House",
+        "location": "Banff, Alberta",
+        "type": "bungalow",
+        "price_per_night": 316.92,
+        "features": [
+            "kayak",
+            "garden",
+            "WiFi",
+            "dock"
+        ],
+        "tags": [
+            "adventure",
+            "city",
+            "mountain",
+            "family-friendly"
+        ]
+    },
+    {
+        "property_id": 229,
+        "name": "Cozy Lodge",
+        "location": "Lake Louise, Alberta",
+        "type": "cabin",
+        "price_per_night": 145.72,
+        "features": [
+            "garden",
+            "ski-in/ski-out",
+            "kayak",
+            "dock"
+        ],
+        "tags": [
+            "adventure",
+            "city",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 230,
+        "name": "Secluded Apartment",
+        "location": "Niagara-on-the-Lake, Ontario",
+        "type": "cottage",
+        "price_per_night": 331.54,
+        "features": [
+            "WiFi",
+            "kayak",
+            "fireplace",
+            "garden"
+        ],
+        "tags": [
+            "luxury",
+            "nature",
+            "lake",
+            "city"
+        ]
+    },
+    {
+        "property_id": 231,
+        "name": "Cozy Bungalow",
+        "location": "Victoria, British Columbia",
+        "type": "lodge",
+        "price_per_night": 321.08,
+        "features": [
+            "dock",
+            "WiFi"
+        ],
+        "tags": [
+            "city",
+            "nightlife",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 232,
+        "name": "Cozy Bungalow",
+        "location": "Kelowna, British Columbia",
+        "type": "condo",
+        "price_per_night": 250.45,
+        "features": [
+            "ski-in/ski-out",
+            "AC",
+            "WiFi",
+            "BBQ",
+            "dock"
+        ],
+        "tags": [
+            "beach",
+            "city",
+            "mountain",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 233,
+        "name": "Secluded Farmhouse",
+        "location": "Victoria, British Columbia",
+        "type": "cabin",
+        "price_per_night": 105.34,
+        "features": [
+            "AC",
+            "WiFi"
+        ],
+        "tags": [
+            "city",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 234,
+        "name": "Lakeview Lodge",
+        "location": "Toronto, Ontario",
+        "type": "lodge",
+        "price_per_night": 192.58,
+        "features": [
+            "fireplace",
+            "pet-friendly",
+            "AC"
+        ],
+        "tags": [
+            "nature",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 235,
+        "name": "Cozy Farmhouse",
+        "location": "Ottawa, Ontario",
+        "type": "cottage",
+        "price_per_night": 109.8,
+        "features": [
+            "BBQ",
+            "hot tub",
+            "kayak",
+            "AC"
+        ],
+        "tags": [
+            "adventure",
+            "lake",
+            "nightlife"
+        ]
+    },
+    {
+        "property_id": 236,
+        "name": "Modern Cottage",
+        "location": "Victoria, British Columbia",
+        "type": "apartment",
+        "price_per_night": 90.26,
+        "features": [
+            "dock",
+            "fireplace",
+            "hot tub",
+            "WiFi",
+            "kayak"
+        ],
+        "tags": [
+            "nightlife",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 237,
+        "name": "Lakeview Apartment",
+        "location": "Halifax, Nova Scotia",
+        "type": "cottage",
+        "price_per_night": 251.94,
+        "features": [
+            "garden",
+            "fireplace",
+            "hot tub",
+            "BBQ"
+        ],
+        "tags": [
+            "nightlife",
+            "nature",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 238,
+        "name": "Cozy Condo",
+        "location": "Jasper, Alberta",
+        "type": "cabin",
+        "price_per_night": 134.58,
+        "features": [
+            "dock",
+            "AC",
+            "garden",
+            "kayak",
+            "WiFi"
+        ],
+        "tags": [
+            "luxury",
+            "beach",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 239,
+        "name": "Charming Farmhouse",
+        "location": "Prince Edward Island, PEI",
+        "type": "cabin",
+        "price_per_night": 102.77,
+        "features": [
+            "pet-friendly",
+            "hot tub",
+            "WiFi",
+            "AC"
+        ],
+        "tags": [
+            "adventure",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 240,
+        "name": "Modern Farmhouse",
+        "location": "Muskoka, Ontario",
+        "type": "farmhouse",
+        "price_per_night": 349.79,
+        "features": [
+            "hot tub",
+            "AC",
+            "dock",
+            "WiFi"
+        ],
+        "tags": [
+            "lake",
+            "remote",
+            "nightlife"
+        ]
+    },
+    {
+        "property_id": 241,
+        "name": "Luxury Lodge",
+        "location": "Niagara-on-the-Lake, Ontario",
+        "type": "bungalow",
+        "price_per_night": 180.99,
+        "features": [
+            "garden",
+            "BBQ"
+        ],
+        "tags": [
+            "remote",
+            "beach",
+            "family-friendly",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 242,
+        "name": "Rustic Apartment",
+        "location": "Victoria, British Columbia",
+        "type": "house",
+        "price_per_night": 255.28,
+        "features": [
+            "BBQ",
+            "kayak"
+        ],
+        "tags": [
+            "romantic",
+            "mountain",
+            "family-friendly"
+        ]
+    },
+    {
+        "property_id": 243,
+        "name": "Sunny House",
+        "location": "Montreal, Quebec",
+        "type": "apartment",
+        "price_per_night": 178.81,
+        "features": [
+            "ski-in/ski-out",
+            "garden"
+        ],
+        "tags": [
+            "lake",
+            "city",
+            "luxury",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 244,
+        "name": "Lakeview Bungalow",
+        "location": "Victoria, British Columbia",
+        "type": "cottage",
+        "price_per_night": 139.09,
+        "features": [
+            "canoe",
+            "fireplace"
+        ],
+        "tags": [
+            "remote",
+            "quiet",
+            "city"
+        ]
+    },
+    {
+        "property_id": 245,
+        "name": "Sunny Cabin",
+        "location": "Whistler, British Columbia",
+        "type": "chalet",
+        "price_per_night": 152.88,
+        "features": [
+            "BBQ",
+            "WiFi",
+            "pet-friendly",
+            "AC",
+            "canoe"
+        ],
+        "tags": [
+            "adventure",
+            "city",
+            "beach",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 246,
+        "name": "Lakeview Cottage",
+        "location": "Vancouver, British Columbia",
+        "type": "house",
+        "price_per_night": 351.07,
+        "features": [
+            "dock",
+            "garden",
+            "WiFi",
+            "fireplace"
+        ],
+        "tags": [
+            "nightlife",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 247,
+        "name": "Charming Cottage",
+        "location": "Prince Edward Island, PEI",
+        "type": "condo",
+        "price_per_night": 71.89,
+        "features": [
+            "WiFi",
+            "BBQ"
+        ],
+        "tags": [
+            "family-friendly",
+            "city",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 248,
+        "name": "Modern House",
+        "location": "Niagara-on-the-Lake, Ontario",
+        "type": "bungalow",
+        "price_per_night": 280.37,
+        "features": [
+            "WiFi",
+            "pet-friendly",
+            "kayak"
+        ],
+        "tags": [
+            "remote",
+            "nightlife",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 249,
+        "name": "Rustic Lodge",
+        "location": "Victoria, British Columbia",
+        "type": "farmhouse",
+        "price_per_night": 85.96,
+        "features": [
+            "BBQ",
+            "AC",
+            "dock",
+            "garden",
+            "canoe"
+        ],
+        "tags": [
+            "romantic",
+            "remote",
+            "lake",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 250,
+        "name": "Rustic Cabin",
+        "location": "Winnipeg, Manitoba",
+        "type": "apartment",
+        "price_per_night": 133.46,
+        "features": [
+            "AC",
+            "kayak",
+            "fireplace"
+        ],
+        "tags": [
+            "remote",
+            "nightlife",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 251,
+        "name": "Rustic Cottage",
+        "location": "Winnipeg, Manitoba",
+        "type": "chalet",
+        "price_per_night": 273.8,
+        "features": [
+            "ski-in/ski-out",
+            "WiFi",
+            "canoe"
+        ],
+        "tags": [
+            "nightlife",
+            "family-friendly",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 252,
+        "name": "Rustic Cottage",
+        "location": "Ottawa, Ontario",
+        "type": "bungalow",
+        "price_per_night": 143.11,
+        "features": [
+            "WiFi",
+            "pet-friendly"
+        ],
+        "tags": [
+            "mountain",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 253,
+        "name": "Sunny Condo",
+        "location": "Banff, Alberta",
+        "type": "condo",
+        "price_per_night": 155.97,
+        "features": [
+            "BBQ",
+            "ski-in/ski-out",
+            "pet-friendly"
+        ],
+        "tags": [
+            "nature",
+            "city",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 254,
+        "name": "Luxury Bungalow",
+        "location": "Montreal, Quebec",
+        "type": "cabin",
+        "price_per_night": 225.58,
+        "features": [
+            "AC",
+            "BBQ",
+            "dock",
+            "pet-friendly",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "quiet",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 255,
+        "name": "Urban Bungalow",
+        "location": "Banff, Alberta",
+        "type": "cottage",
+        "price_per_night": 310.57,
+        "features": [
+            "WiFi",
+            "pet-friendly",
+            "AC",
+            "fireplace"
+        ],
+        "tags": [
+            "city",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 256,
+        "name": "Luxury Lodge",
+        "location": "Niagara-on-the-Lake, Ontario",
+        "type": "house",
+        "price_per_night": 346.44,
+        "features": [
+            "kayak",
+            "WiFi",
+            "BBQ"
+        ],
+        "tags": [
+            "lake",
+            "family-friendly"
+        ]
+    },
+    {
+        "property_id": 257,
+        "name": "Secluded House",
+        "location": "Montreal, Quebec",
+        "type": "cabin",
+        "price_per_night": 101.11,
+        "features": [
+            "ski-in/ski-out",
+            "hot tub",
+            "WiFi",
+            "AC",
+            "garden"
+        ],
+        "tags": [
+            "city",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 258,
+        "name": "Charming Farmhouse",
+        "location": "Banff, Alberta",
+        "type": "apartment",
+        "price_per_night": 89.54,
+        "features": [
+            "pet-friendly",
+            "ski-in/ski-out",
+            "dock",
+            "AC"
+        ],
+        "tags": [
+            "romantic",
+            "nightlife"
+        ]
+    },
+    {
+        "property_id": 259,
+        "name": "Cozy Lodge",
+        "location": "Vancouver, British Columbia",
+        "type": "bungalow",
+        "price_per_night": 120.8,
+        "features": [
+            "dock",
+            "kayak"
+        ],
+        "tags": [
+            "nightlife",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 260,
+        "name": "Lakeview Condo",
+        "location": "Tofino, British Columbia",
+        "type": "cottage",
+        "price_per_night": 314.97,
+        "features": [
+            "kayak",
+            "hot tub",
+            "BBQ",
+            "WiFi"
+        ],
+        "tags": [
+            "nature",
+            "mountain",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 261,
+        "name": "Charming Condo",
+        "location": "Saskatoon, Saskatchewan",
+        "type": "apartment",
+        "price_per_night": 193.97,
+        "features": [
+            "AC",
+            "dock"
+        ],
+        "tags": [
+            "nightlife",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 262,
+        "name": "Sunny House",
+        "location": "Niagara-on-the-Lake, Ontario",
+        "type": "chalet",
+        "price_per_night": 253.67,
+        "features": [
+            "fireplace",
+            "kayak",
+            "AC",
+            "pet-friendly"
+        ],
+        "tags": [
+            "quiet",
+            "nature",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 263,
+        "name": "Urban House",
+        "location": "Muskoka, Ontario",
+        "type": "chalet",
+        "price_per_night": 320.01,
+        "features": [
+            "pet-friendly",
+            "ski-in/ski-out",
+            "kayak",
+            "dock"
+        ],
+        "tags": [
+            "remote",
+            "beach",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 264,
+        "name": "Urban Farmhouse",
+        "location": "Prince Edward Island, PEI",
+        "type": "house",
+        "price_per_night": 195.91,
+        "features": [
+            "BBQ",
+            "fireplace"
+        ],
+        "tags": [
+            "family-friendly",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 265,
+        "name": "Charming Condo",
+        "location": "Halifax, Nova Scotia",
+        "type": "lodge",
+        "price_per_night": 268.07,
+        "features": [
+            "WiFi",
+            "garden",
+            "canoe"
+        ],
+        "tags": [
+            "nature",
+            "beach",
+            "luxury",
+            "mountain"
+        ]
+    },
+    {
+        "property_id": 266,
+        "name": "Rustic House",
+        "location": "Quebec City, Quebec",
+        "type": "bungalow",
+        "price_per_night": 136.49,
+        "features": [
+            "AC",
+            "kayak",
+            "dock"
+        ],
+        "tags": [
+            "luxury",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 267,
+        "name": "Peaceful Cottage",
+        "location": "Edmonton, Alberta",
+        "type": "cabin",
+        "price_per_night": 216.52,
+        "features": [
+            "kayak",
+            "WiFi",
+            "ski-in/ski-out",
+            "fireplace",
+            "AC"
+        ],
+        "tags": [
+            "nature",
+            "luxury",
+            "romantic",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 268,
+        "name": "Modern House",
+        "location": "Whistler, British Columbia",
+        "type": "farmhouse",
+        "price_per_night": 365.57,
+        "features": [
+            "pet-friendly",
+            "kayak",
+            "hot tub",
+            "AC"
+        ],
+        "tags": [
+            "quiet",
+            "lake",
+            "city"
+        ]
+    },
+    {
+        "property_id": 269,
+        "name": "Sunny House",
+        "location": "Lake Louise, Alberta",
+        "type": "bungalow",
+        "price_per_night": 470.12,
+        "features": [
+            "fireplace",
+            "dock",
+            "WiFi",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "mountain",
+            "beach",
+            "lake",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 270,
+        "name": "Lakeview House",
+        "location": "Whistler, British Columbia",
+        "type": "chalet",
+        "price_per_night": 177.93,
+        "features": [
+            "kayak",
+            "hot tub",
+            "pet-friendly",
+            "canoe",
+            "BBQ"
+        ],
+        "tags": [
+            "romantic",
+            "city",
+            "quiet",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 271,
+        "name": "Cozy Farmhouse",
+        "location": "Toronto, Ontario",
+        "type": "cottage",
+        "price_per_night": 245.94,
+        "features": [
+            "ski-in/ski-out",
+            "AC",
+            "BBQ"
+        ],
+        "tags": [
+            "lake",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 272,
+        "name": "Peaceful Cottage",
+        "location": "Quebec City, Quebec",
+        "type": "farmhouse",
+        "price_per_night": 94.27,
+        "features": [
+            "dock",
+            "WiFi",
+            "fireplace",
+            "BBQ",
+            "kayak"
+        ],
+        "tags": [
+            "mountain",
+            "romantic",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 273,
+        "name": "Sunny Farmhouse",
+        "location": "Ottawa, Ontario",
+        "type": "condo",
+        "price_per_night": 127.08,
+        "features": [
+            "BBQ",
+            "hot tub"
+        ],
+        "tags": [
+            "nature",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 274,
+        "name": "Sunny Cabin",
+        "location": "Vancouver, British Columbia",
+        "type": "chalet",
+        "price_per_night": 292.97,
+        "features": [
+            "canoe",
+            "garden",
+            "WiFi",
+            "BBQ",
+            "hot tub"
+        ],
+        "tags": [
+            "luxury",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 275,
+        "name": "Secluded House",
+        "location": "Edmonton, Alberta",
+        "type": "lodge",
+        "price_per_night": 174.18,
+        "features": [
+            "hot tub",
+            "WiFi",
+            "garden",
+            "BBQ"
+        ],
+        "tags": [
+            "family-friendly",
+            "lake",
+            "remote",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 276,
+        "name": "Luxury Cottage",
+        "location": "Montreal, Quebec",
+        "type": "apartment",
+        "price_per_night": 103.72,
+        "features": [
+            "ski-in/ski-out",
+            "kayak",
+            "hot tub",
+            "fireplace",
+            "WiFi"
+        ],
+        "tags": [
+            "nightlife",
+            "romantic",
+            "lake",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 277,
+        "name": "Lakeview Farmhouse",
+        "location": "Ottawa, Ontario",
+        "type": "condo",
+        "price_per_night": 164.69,
+        "features": [
+            "pet-friendly",
+            "canoe",
+            "dock"
+        ],
+        "tags": [
+            "city",
+            "quiet",
+            "remote",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 278,
+        "name": "Luxury Chalet",
+        "location": "Edmonton, Alberta",
+        "type": "cabin",
+        "price_per_night": 127.9,
+        "features": [
+            "kayak",
+            "WiFi",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "beach",
+            "mountain"
+        ]
+    },
+    {
+        "property_id": 279,
+        "name": "Modern Cottage",
+        "location": "Toronto, Ontario",
+        "type": "condo",
+        "price_per_night": 170.32,
+        "features": [
+            "ski-in/ski-out",
+            "AC",
+            "kayak",
+            "canoe",
+            "fireplace"
+        ],
+        "tags": [
+            "adventure",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 280,
+        "name": "Cozy Condo",
+        "location": "Saskatoon, Saskatchewan",
+        "type": "apartment",
+        "price_per_night": 122.65,
+        "features": [
+            "kayak",
+            "hot tub",
+            "BBQ"
+        ],
+        "tags": [
+            "lake",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 281,
+        "name": "Lakeview Farmhouse",
+        "location": "Prince Edward Island, PEI",
+        "type": "house",
+        "price_per_night": 115.85,
+        "features": [
+            "ski-in/ski-out",
+            "WiFi",
+            "fireplace",
+            "dock"
+        ],
+        "tags": [
+            "family-friendly",
+            "mountain",
+            "city"
+        ]
+    },
+    {
+        "property_id": 282,
+        "name": "Urban Bungalow",
+        "location": "Whistler, British Columbia",
+        "type": "house",
+        "price_per_night": 156.35,
+        "features": [
+            "fireplace",
+            "AC"
+        ],
+        "tags": [
+            "romantic",
+            "lake"
+        ]
+    },
+    {
+        "property_id": 283,
+        "name": "Modern Condo",
+        "location": "Tofino, British Columbia",
+        "type": "cottage",
+        "price_per_night": 161.23,
+        "features": [
+            "AC",
+            "canoe",
+            "WiFi",
+            "hot tub"
+        ],
+        "tags": [
+            "luxury",
+            "city"
+        ]
+    },
+    {
+        "property_id": 284,
+        "name": "Rustic Condo",
+        "location": "Whistler, British Columbia",
+        "type": "cabin",
+        "price_per_night": 245.78,
+        "features": [
+            "hot tub",
+            "WiFi",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "mountain",
+            "beach"
+        ]
+    },
+    {
+        "property_id": 285,
+        "name": "Sunny House",
+        "location": "Prince Edward Island, PEI",
+        "type": "cottage",
+        "price_per_night": 331.13,
+        "features": [
+            "dock",
+            "BBQ",
+            "ski-in/ski-out"
+        ],
+        "tags": [
+            "family-friendly",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 286,
+        "name": "Luxury Chalet",
+        "location": "Jasper, Alberta",
+        "type": "lodge",
+        "price_per_night": 95.24,
+        "features": [
+            "BBQ",
+            "hot tub",
+            "garden"
+        ],
+        "tags": [
+            "quiet",
+            "mountain",
+            "nightlife",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 287,
+        "name": "Secluded Cabin",
+        "location": "Banff, Alberta",
+        "type": "house",
+        "price_per_night": 158.57,
+        "features": [
+            "BBQ",
+            "hot tub",
+            "garden",
+            "pet-friendly"
+        ],
+        "tags": [
+            "luxury",
+            "beach",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 288,
+        "name": "Charming Chalet",
+        "location": "Winnipeg, Manitoba",
+        "type": "condo",
+        "price_per_night": 126.32,
+        "features": [
+            "ski-in/ski-out",
+            "dock",
+            "canoe",
+            "BBQ"
+        ],
+        "tags": [
+            "remote",
+            "lake",
+            "city",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 289,
+        "name": "Rustic Chalet",
+        "location": "Niagara-on-the-Lake, Ontario",
+        "type": "house",
+        "price_per_night": 379.09,
+        "features": [
+            "pet-friendly",
+            "hot tub"
+        ],
+        "tags": [
+            "family-friendly",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 290,
+        "name": "Urban Apartment",
+        "location": "Saskatoon, Saskatchewan",
+        "type": "cabin",
+        "price_per_night": 103.39,
+        "features": [
+            "AC",
+            "dock",
+            "WiFi",
+            "BBQ",
+            "pet-friendly"
+        ],
+        "tags": [
+            "city",
+            "luxury",
+            "quiet",
+            "adventure"
+        ]
+    },
+    {
+        "property_id": 291,
+        "name": "Lakeview Chalet",
+        "location": "Quebec City, Quebec",
+        "type": "apartment",
+        "price_per_night": 69.62,
+        "features": [
+            "BBQ",
+            "garden"
+        ],
+        "tags": [
+            "romantic",
+            "luxury",
+            "quiet"
+        ]
+    },
+    {
+        "property_id": 292,
+        "name": "Rustic Condo",
+        "location": "Halifax, Nova Scotia",
+        "type": "chalet",
+        "price_per_night": 392.79,
+        "features": [
+            "pet-friendly",
+            "BBQ",
+            "WiFi"
+        ],
+        "tags": [
+            "city",
+            "nature",
+            "nightlife",
+            "mountain"
+        ]
+    },
+    {
+        "property_id": 293,
+        "name": "Luxury Chalet",
+        "location": "Edmonton, Alberta",
+        "type": "cabin",
+        "price_per_night": 130.64,
+        "features": [
+            "pet-friendly",
+            "fireplace",
+            "BBQ",
+            "dock"
+        ],
+        "tags": [
+            "beach",
+            "nightlife",
+            "quiet",
+            "luxury"
+        ]
+    },
+    {
+        "property_id": 294,
+        "name": "Charming Chalet",
+        "location": "Kelowna, British Columbia",
+        "type": "lodge",
+        "price_per_night": 258.75,
+        "features": [
+            "canoe",
+            "fireplace"
+        ],
+        "tags": [
+            "luxury",
+            "nightlife",
+            "quiet",
+            "remote"
+        ]
+    },
+    {
+        "property_id": 295,
+        "name": "Urban Condo",
+        "location": "Toronto, Ontario",
+        "type": "chalet",
+        "price_per_night": 305.33,
+        "features": [
+            "garden",
+            "BBQ",
+            "dock",
+            "hot tub",
+            "canoe"
+        ],
+        "tags": [
+            "lake",
+            "romantic"
+        ]
+    },
+    {
+        "property_id": 296,
+        "name": "Modern Cottage",
+        "location": "Calgary, Alberta",
+        "type": "house",
+        "price_per_night": 248.25,
+        "features": [
+            "pet-friendly",
+            "dock",
+            "hot tub"
+        ],
+        "tags": [
+            "beach",
+            "nightlife"
+        ]
+    },
+    {
+        "property_id": 297,
+        "name": "Luxury Chalet",
+        "location": "Vancouver, British Columbia",
+        "type": "house",
+        "price_per_night": 374.25,
+        "features": [
+            "fireplace",
+            "hot tub"
+        ],
+        "tags": [
+            "nature",
+            "nightlife"
+        ]
+    },
+    {
+        "property_id": 298,
+        "name": "Rustic Farmhouse",
+        "location": "Victoria, British Columbia",
+        "type": "bungalow",
+        "price_per_night": 92.69,
+        "features": [
+            "BBQ",
+            "ski-in/ski-out",
+            "kayak"
+        ],
+        "tags": [
+            "nature",
+            "city"
+        ]
+    },
+    {
+        "property_id": 299,
+        "name": "Charming Apartment",
+        "location": "Whistler, British Columbia",
+        "type": "chalet",
+        "price_per_night": 269.23,
+        "features": [
+            "WiFi",
+            "dock",
+            "BBQ",
+            "ski-in/ski-out",
+            "AC"
+        ],
+        "tags": [
+            "nightlife",
+            "city",
+            "lake",
+            "nature"
+        ]
+    },
+    {
+        "property_id": 300,
+        "name": "Cozy Farmhouse",
+        "location": "Whistler, British Columbia",
+        "type": "house",
+        "price_per_night": 108.09,
+        "features": [
+            "fireplace",
+            "pet-friendly",
+            "garden",
+            "AC",
+            "canoe"
+        ],
+        "tags": [
+            "city",
+            "mountain",
+            "nature"
+        ]
+    }
+]
