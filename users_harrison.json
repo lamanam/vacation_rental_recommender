@@ -1,0 +1,22 @@
+[
+  {"user_id": 1, "name": "Alice", "group_size": 2, "preferred_environment": "beach", "budget_range": [100, 250], "travel_dates": "2025-07-10 to 2025-07-17"},
+  {"user_id": 2, "name": "Bob", "group_size": 4, "preferred_environment": "mountain", "budget_range": [150, 300], "travel_dates": "2025-08-05 to 2025-08-12"},
+  {"user_id": 3, "name": "Charlie", "group_size": 1, "preferred_environment": "city", "budget_range": [80, 200], "travel_dates": "2025-06-15 to 2025-06-20"},
+  {"user_id": 4, "name": "Diana", "group_size": 3, "preferred_environment": "lake", "budget_range": [120, 220], "travel_dates": "2025-07-22 to 2025-07-29"},
+  {"user_id": 5, "name": "Ethan", "group_size": 2, "preferred_environment": "mountain", "budget_range": [100, 250], "travel_dates": "2025-09-10 to 2025-09-17"},
+  {"user_id": 6, "name": "Fiona", "group_size": 5, "preferred_environment": "beach", "budget_range": [180, 350], "travel_dates": "2025-07-01 to 2025-07-08"},
+  {"user_id": 7, "name": "George", "group_size": 2, "preferred_environment": "city", "budget_range": [90, 200], "travel_dates": "2025-06-25 to 2025-06-30"},
+  {"user_id": 8, "name": "Hannah", "group_size": 4, "preferred_environment": "lake", "budget_range": [130, 280], "travel_dates": "2025-08-18 to 2025-08-25"},
+  {"user_id": 9, "name": "Ian", "group_size": 3, "preferred_environment": "mountain", "budget_range": [150, 300], "travel_dates": "2025-07-15 to 2025-07-22"},
+  {"user_id": 10, "name": "Julia", "group_size": 1, "preferred_environment": "beach", "budget_range": [80, 180], "travel_dates": "2025-07-28 to 2025-08-02"},
+  {"user_id": 11, "name": "Kevin", "group_size": 2, "preferred_environment": "city", "budget_range": [100, 220], "travel_dates": "2025-09-01 to 2025-09-06"},
+  {"user_id": 12, "name": "Laura", "group_size": 6, "preferred_environment": "mountain", "budget_range": [200, 400], "travel_dates": "2025-08-12 to 2025-08-19"},
+  {"user_id": 13, "name": "Michael", "group_size": 3, "preferred_environment": "lake", "budget_range": [120, 260], "travel_dates": "2025-07-04 to 2025-07-11"},
+  {"user_id": 14, "name": "Nina", "group_size": 2, "preferred_environment": "beach", "budget_range": [90, 210], "travel_dates": "2025-06-10 to 2025-06-15"},
+  {"user_id": 15, "name": "Oliver", "group_size": 4, "preferred_environment": "city", "budget_range": [130, 280], "travel_dates": "2025-07-19 to 2025-07-26"},
+  {"user_id": 16, "name": "Paula", "group_size": 3, "preferred_environment": "mountain", "budget_range": [140, 300], "travel_dates": "2025-09-15 to 2025-09-22"},
+  {"user_id": 17, "name": "Quinn", "group_size": 5, "preferred_environment": "lake", "budget_range": [180, 350], "travel_dates": "2025-08-24 to 2025-08-31"},
+  {"user_id": 18, "name": "Ryan", "group_size": 2, "preferred_environment": "beach", "budget_range": [100, 250], "travel_dates": "2025-07-06 to 2025-07-13"},
+  {"user_id": 19, "name": "Sophia", "group_size": 1, "preferred_environment": "city", "budget_range": [90, 200], "travel_dates": "2025-08-09 to 2025-08-14"},
+  {"user_id": 20, "name": "Thomas", "group_size": 4, "preferred_environment": "mountain", "budget_range": [150, 320], "travel_dates": "2025-07-25 to 2025-08-01"}
+]
