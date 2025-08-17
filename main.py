@@ -19,13 +19,19 @@ def main():
     
     # step 1: create db tables if they don't exist
     database.create_tables()
+    print('Created tables')
 
     # step 2: If tables are empty - load from sample json for each users and properties
     database.load_json_to_db()
+    print('Loaded users & properties from json')
 
     # step 3: get all users and properties in the db 
     users = database.load_users()
     properties = database.load_properties()
+    print('extracted users list ...')
+    print(users)
+    print('extracted properties list ...')
+    print(properties)
     
     # step 4: options inf loop
     while True:
@@ -37,7 +43,7 @@ def main():
         print("5. Get Recommendations")
         print("0. Exit")
 
-        choicde = input("Choose an option: ").strip()
+        choice = input("Choose an option: ").strip()
 
         if choice == "1":
             # Create user

@@ -1,6 +1,7 @@
 # recommender.py
 
-from models import User, Property
+from user_property import User, Property
+
 
 
 def score_property(user: User, prop: Property):
