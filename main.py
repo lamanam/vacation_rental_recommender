@@ -4,15 +4,14 @@ from user_property import User, Property
 import database
 from recommender import get_recommendations
 
-
 def print_user(user):
-    print(f"ID: {user.user_id} | Name: {user.name} | Group: {user.group_size} | Env: {user.preferred_environment} | Budget: ${user.budget}")
+    print(f"ID: {user.user_id} | Name: {user.name} | Group: {user.group_size} | Env: {user.preferred_environment} | Must Have Features: {user.must_have_feature}  | Budget: ${user.budget}")
 
 
 def print_property(prop):
-    print(f"ID: {prop.property_id} | {prop.type.title()} in {prop.location} | ${prop.price_per_night}/night")
-    print(f"  Features: {', '.join(prop.features)}")
-    print(f"  Tags: {', '.join(prop.tags)}")
+    print(f"ID: {prop.property_id} | {prop.name} | {prop.type} in {prop.location} | ${prop.price_per_night}/night  | {prop.features} | {prop.tags}")
+    # print(f"  Features: {', '.join(prop.features)}")
+    # print(f"  Tags: {', '.join(prop.tags)}")
 
 
 def main():
@@ -28,10 +27,8 @@ def main():
     # step 3: get all users and properties in the db 
     users = database.load_users()
     properties = database.load_properties()
-    print('extracted users list ...')
-    print(users)
-    print('extracted properties list ...')
-    print(properties)
+    print('extracted users list ... num of users ', len(users))
+    print('extracted properties list ... num of properties ', len(properties))
     
     # step 4: options inf loop
     while True:
@@ -53,11 +50,12 @@ def main():
                 group_size = int(input("Group size: "))
                 preferred_env = input("Preferred environment (mountain, lake, beach, city): ").lower()
                 budget = float(input("Budget per night: "))
+                must_have_feats = input("Must have features (comma separated): ").lower()
             except ValueError:
                 print("Invalid input. Please enter correct data types.")
                 continue
 
-            user = User(user_id, name, group_size, preferred_env, budget)
+            user = User(user_id, name, group_size, preferred_env, must_have_feats, budget)
             database.insert_user(user)
             users = database.load_users()  # reload after insert
             print(f"User {name} created.")
@@ -93,7 +91,7 @@ def main():
                 rec_user_id = int(input("Enter your User ID: "))
             except ValueError:
                 print("Invalid ID")
-                continue
+                continue2
             user = next((u for u in users if u.user_id == rec_user_id), None)
             if not user:
                 print("User not found.")

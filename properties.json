@@ -1,186 +1,202 @@
 [
   {
     "property_id": 1,
-    "location": "Banff",
-    "type": "cabin",
-    "price_per_night": 180,
-    "features": ["hot tub", "fireplace"],
-    "tags": ["mountain", "remote"]
+    "name": "Whistler Alpine Lodge",
+    "location": "Whistler, BC",
+    "allowed_number_check_in": 6,
+    "type": "chalet",
+    "price_per_night": 320,
+    "features": "ski-in/ski-out, fireplace, hot tub",
+    "tags": "mountain, ski, family-friendly"
   },
   {
     "property_id": 2,
-    "location": "Tofino",
-    "type": "house",
-    "price_per_night": 120,
-    "features": ["ocean view", "pet friendly"],
-    "tags": ["beach"]
+    "name": "Toronto Skyline Loft",
+    "location": "Toronto, ON",
+    "allowed_number_check_in": 2,
+    "type": "apartment",
+    "price_per_night": 200,
+    "features": "wifi, balcony, kitchen",
+    "tags": "city, modern"
   },
   {
     "property_id": 3,
-    "location": "Toronto",
-    "type": "apartment",
-    "price_per_night": 110,
-    "features": ["city view", "wifi"],
-    "tags": ["urban"]
+    "name": "Banff Mountain Cabin",
+    "location": "Banff, AB",
+    "allowed_number_check_in": 4,
+    "type": "cabin",
+    "price_per_night": 280,
+    "features": "fireplace, hot tub, mountain view",
+    "tags": "mountain, luxury"
   },
   {
     "property_id": 4,
-    "location": "Whistler",
+    "name": "Halifax Oceanview Condo",
+    "location": "Halifax, NS",
+    "allowed_number_check_in": 3,
     "type": "condo",
-    "price_per_night": 150,
-    "features": ["ski-in/ski-out", "fireplace", "wifi"],
-    "tags": ["mountain", "family-friendly"]
+    "price_per_night": 190,
+    "features": "balcony, wifi, ocean view",
+    "tags": "coastal, city"
   },
   {
     "property_id": 5,
-    "location": "Vancouver",
-    "type": "apartment",
-    "price_per_night": 130,
-    "features": ["city view", "gym", "wifi"],
-    "tags": ["urban", "nightlife"]
+    "name": "Muskoka Lakehouse Retreat",
+    "location": "Muskoka, ON",
+    "allowed_number_check_in": 8,
+    "type": "cottage",
+    "price_per_night": 400,
+    "features": "lake access, fireplace, canoe",
+    "tags": "lake, family-friendly"
   },
   {
     "property_id": 6,
-    "location": "Muskoka",
-    "type": "cottage",
-    "price_per_night": 190,
-    "features": ["lake access", "fireplace", "hot tub"],
-    "tags": ["lake", "family-friendly", "remote"]
+    "name": "Quebec City Heritage Loft",
+    "location": "Quebec City, QC",
+    "allowed_number_check_in": 2,
+    "type": "loft",
+    "price_per_night": 180,
+    "features": "fireplace, wifi, balcony",
+    "tags": "city, historic"
   },
   {
     "property_id": 7,
-    "location": "Mont Tremblant",
+    "name": "Blue Mountain Ski Chalet",
+    "location": "Blue Mountains, ON",
+    "allowed_number_check_in": 6,
     "type": "chalet",
-    "price_per_night": 160,
-    "features": ["ski-in/ski-out", "hot tub", "pet friendly"],
-    "tags": ["mountain", "family-friendly"]
+    "price_per_night": 310,
+    "features": "ski-in/ski-out, hot tub, fireplace",
+    "tags": "mountain, ski"
   },
   {
     "property_id": 8,
-    "location": "Niagara Falls",
-    "type": "house",
-    "price_per_night": 140,
-    "features": ["pool", "wifi", "nightlife"],
-    "tags": ["urban", "family-friendly"]
+    "name": "Victoria Seaside Villa",
+    "location": "Victoria, BC",
+    "allowed_number_check_in": 5,
+    "type": "villa",
+    "price_per_night": 350,
+    "features": "ocean view, balcony, garden",
+    "tags": "coastal, romantic"
   },
   {
     "property_id": 9,
-    "location": "Halifax",
-    "type": "condo",
-    "price_per_night": 100,
-    "features": ["ocean view", "wifi", "pet friendly"],
-    "tags": ["beach", "urban"]
+    "name": "Calgary Downtown Suite",
+    "location": "Calgary, AB",
+    "allowed_number_check_in": 2,
+    "type": "apartment",
+    "price_per_night": 170,
+    "features": "wifi, kitchen, balcony",
+    "tags": "city, modern"
   },
   {
     "property_id": 10,
-    "location": "Prince Edward County",
-    "type": "farmhouse",
-    "price_per_night": 170,
-    "features": ["fireplace", "pet friendly", "garden"],
-    "tags": ["rural", "family-friendly"]
+    "name": "Algonquin Forest Cabin",
+    "location": "Algonquin Park, ON",
+    "allowed_number_check_in": 4,
+    "type": "cabin",
+    "price_per_night": 240,
+    "features": "fireplace, hiking trails, lake access",
+    "tags": "forest, nature"
   },
   {
     "property_id": 11,
-    "location": "Jasper",
-    "type": "cabin",
-    "price_per_night": 175,
-    "features": ["hot tub", "fireplace", "lake access"],
-    "tags": ["mountain", "remote", "lake"]
+    "name": "Montreal Artistic Loft",
+    "location": "Montreal, QC",
+    "allowed_number_check_in": 3,
+    "type": "apartment",
+    "price_per_night": 210,
+    "features": "wifi, kitchen, balcony",
+    "tags": "city, cultural"
   },
   {
     "property_id": 12,
-    "location": "Québec City",
-    "type": "apartment",
-    "price_per_night": 120,
-    "features": ["city view", "wifi", "historic"],
-    "tags": ["urban", "historic"]
+    "name": "Niagara Falls View Condo",
+    "location": "Niagara Falls, ON",
+    "allowed_number_check_in": 4,
+    "type": "condo",
+    "price_per_night": 220,
+    "features": "balcony, wifi, parking",
+    "tags": "city, scenic"
   },
   {
     "property_id": 13,
-    "location": "Kingston",
-    "type": "house",
-    "price_per_night": 135,
-    "features": ["fireplace", "pet friendly", "garden"],
-    "tags": ["lake", "family-friendly"]
+    "name": "PEI Coastal Cottage",
+    "location": "Prince Edward Island, PE",
+    "allowed_number_check_in": 5,
+    "type": "cottage",
+    "price_per_night": 190,
+    "features": "ocean view, garden, balcony",
+    "tags": "coastal, family-friendly"
   },
   {
     "property_id": 14,
-    "location": "Kelowna",
-    "type": "condo",
-    "price_per_night": 145,
-    "features": ["pool", "wifi", "gym"],
-    "tags": ["lake", "urban"]
+    "name": "Lake Louise Mountain Lodge",
+    "location": "Lake Louise, AB",
+    "allowed_number_check_in": 6,
+    "type": "lodge",
+    "price_per_night": 360,
+    "features": "hot tub, fireplace, mountain view",
+    "tags": "mountain, luxury"
   },
   {
     "property_id": 15,
-    "location": "Niagara-on-the-Lake",
-    "type": "villa",
-    "price_per_night": 200,
-    "features": ["pool", "garden", "fireplace"],
-    "tags": ["lake", "family-friendly"]
+    "name": "Ottawa Riverside Apartment",
+    "location": "Ottawa, ON",
+    "allowed_number_check_in": 2,
+    "type": "apartment",
+    "price_per_night": 180,
+    "features": "wifi, balcony, kitchen",
+    "tags": "city, riverside"
   },
   {
     "property_id": 16,
-    "location": "Victoria",
-    "type": "house",
-    "price_per_night": 155,
-    "features": ["ocean view", "pet friendly", "garden"],
-    "tags": ["beach", "family-friendly"]
+    "name": "Kelowna Vineyard Villa",
+    "location": "Kelowna, BC",
+    "allowed_number_check_in": 4,
+    "type": "villa",
+    "price_per_night": 330,
+    "features": "balcony, vineyard view, fireplace",
+    "tags": "lake, luxury"
   },
   {
     "property_id": 17,
-    "location": "St. John's",
-    "type": "cottage",
-    "price_per_night": 115,
-    "features": ["ocean view", "fireplace", "wifi"],
-    "tags": ["beach", "remote"]
+    "name": "Jasper National Park Cabin",
+    "location": "Jasper, AB",
+    "allowed_number_check_in": 6,
+    "type": "cabin",
+    "price_per_night": 290,
+    "features": "fireplace, hiking trails, mountain view",
+    "tags": "forest, mountain"
   },
   {
     "property_id": 18,
-    "location": "Ottawa",
-    "type": "apartment",
-    "price_per_night": 125,
-    "features": ["city view", "wifi", "gym"],
-    "tags": ["urban"]
+    "name": "St. John’s Harbour Loft",
+    "location": "St. John's, NL",
+    "allowed_number_check_in": 2,
+    "type": "loft",
+    "price_per_night": 200,
+    "features": "ocean view, balcony, wifi",
+    "tags": "coastal, historic"
   },
   {
     "property_id": 19,
-    "location": "Blue Mountain",
+    "name": "Sun Peaks Ski Chalet",
+    "location": "Sun Peaks, BC",
+    "allowed_number_check_in": 6,
     "type": "chalet",
-    "price_per_night": 185,
-    "features": ["ski-in/ski-out", "hot tub", "fireplace"],
-    "tags": ["mountain", "family-friendly"]
+    "price_per_night": 300,
+    "features": "ski-in/ski-out, fireplace, hot tub",
+    "tags": "mountain, ski"
   },
   {
     "property_id": 20,
-    "location": "Gatineau",
-    "type": "condo",
-    "price_per_night": 110,
-    "features": ["city view", "wifi"],
-    "tags": ["urban"]
-  },
-  {
-    "property_id": 21,
-    "location": "Lake Louise",
-    "type": "cabin",
-    "price_per_night": 195,
-    "features": ["hot tub", "lake access", "fireplace"],
-    "tags": ["mountain", "lake", "remote"]
-  },
-  {
-    "property_id": 22,
-    "location": "Saguenay",
-    "type": "house",
-    "price_per_night": 130,
-    "features": ["lake access", "pet friendly", "fireplace"],
-    "tags": ["lake", "family-friendly"]
-  },
-  {
-    "property_id": 23,
-    "location": "Calgary",
-    "type": "apartment",
-    "price_per_night": 115,
-    "features": ["city view", "wifi", "gym"],
-    "tags": ["urban", "nightlife"]
+    "name": "Saskatoon Modern Loft",
+    "location": "Saskatoon, SK",
+    "allowed_number_check_in": 2,
+    "type": "loft",
+    "price_per_night": 160,
+    "features": "wifi, kitchen, balcony",
+    "tags": "city, modern"
   }
 ]

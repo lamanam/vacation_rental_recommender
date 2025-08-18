@@ -1,11 +1,12 @@
+
+
 # property & user defs
 
 class Property:
-    def __init__(self, property_id, name, location, allowed_number_check_in, type_, price_per_night, features, tags):
+    def __init__(self, property_id, name, location, type_, price_per_night, features, tags):
         self.property_id = property_id
         self.name = name
         self.location = location
-        self.allowed_number_check_in = allowed_number_check_in
         self.type = type_
         self.price_per_night = price_per_night
         self.features = features
@@ -14,9 +15,8 @@ class Property:
     def to_dict(self):
         return {
             "property_id": self.property_id,
-            "name": self.name,
+            "name":self.name,
             "location": self.location,
-            "allowed_number_check_in": self.allowed_number_check_in,
             "type": self.type,
             "price_per_night": self.price_per_night,
             "features": self.features,
@@ -29,7 +29,6 @@ class Property:
             d["property_id"],
             d["name"],
             d["location"],
-            d["allowed_number_check_in"],
             d["type"],
             d["price_per_night"],
             d["features"],
@@ -38,13 +37,13 @@ class Property:
 
 
 class User:
-    def __init__(self, user_id, name, group_size, preferred_environment, must_have_feature, budget):
+    def __init__(self, user_id, name, group_size, preferred_environment, budget_range, travel_dates):
         self.user_id = user_id
         self.name = name
         self.group_size = group_size
         self.preferred_environment = preferred_environment
-        self.must_have_feature = must_have_feature
-        self.budget = budget
+        self.budget_range = budget_range
+        self.travel_dates = travel_dates
 
     def to_dict(self):
         return {
@@ -52,8 +51,8 @@ class User:
             "name": self.name,
             "group_size": self.group_size,
             "preferred_environment": self.preferred_environment,
-            "must_have_feature": self.must_have_feature,
-            "budget": self.budget
+            "budget_range": self.budget_range,
+            "travel_dates": self.travel_dates
         }
 
     @classmethod
@@ -63,7 +62,6 @@ class User:
             d["name"],
             d["group_size"],
             d["preferred_environment"],
-            d["must_have_feature"],
-            d["budget"]
+            d["budget_range"],
+            d["travel_dates"]
         )
-

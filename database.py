@@ -16,17 +16,20 @@ def create_tables():
         user_id INTEGER PRIMARY KEY,
         name TEXT,
         group_size INTEGER,
-        preferred_environment TEXT,
+        preferred_environment TEXT,  -- comma-separated
+        must_have_feature TEXT,      -- comma-separated
         budget REAL
     )""")
     cur.execute("""
     CREATE TABLE IF NOT EXISTS properties (
         property_id INTEGER PRIMARY KEY,
+        name TEXT,
         location TEXT,
+        allowed_number_check_in INTEGER,  -- NEW field
         type TEXT,
         price_per_night REAL,
-        features TEXT,
-        tags TEXT
+        features TEXT,  -- comma-separated
+        tags TEXT       -- comma-separated
     )""")
     conn.commit()
     conn.close()
@@ -36,9 +39,9 @@ def insert_user(user: User):
     conn = sqlite3.connect(DB_FILE)
     cur = conn.cursor()
     cur.execute("""
-    INSERT OR REPLACE INTO users (user_id, name, group_size, preferred_environment, budget)
-    VALUES (?, ?, ?, ?, ?)""",
-    (user.user_id, user.name, user.group_size, user.preferred_environment, user.budget))
+    INSERT OR REPLACE INTO users (user_id, name, group_size, preferred_environment, must_have_feature, budget)
+    VALUES (?, ?, ?, ?, ?, ?)""",
+    (user.user_id, user.name, user.group_size, user.preferred_environment, user.must_have_feature, user.budget))
     conn.commit()
     conn.close()
 
@@ -47,10 +50,10 @@ def insert_property(prop: Property):
     conn = sqlite3.connect(DB_FILE)
     cur = conn.cursor()
     cur.execute("""
-    INSERT OR REPLACE INTO properties (property_id, location, type, price_per_night, features, tags)
-    VALUES (?, ?, ?, ?, ?, ?)""",
-    (prop.property_id, prop.location, prop.type, prop.price_per_night,
-     ",".join(prop.features), ",".join(prop.tags)))
+    INSERT OR REPLACE INTO properties (property_id, name, location, allowed_number_check_in, type, price_per_night, features, tags)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
+    (prop.property_id, prop.name, prop.location, prop.allowed_number_check_in, prop.type, prop.price_per_night, prop.features, prop.tags))
+     # ",".join(prop.features), ",".join(prop.tags) ))
     conn.commit()
     conn.close()
 
@@ -58,7 +61,7 @@ def insert_property(prop: Property):
 def load_users():
     conn = sqlite3.connect(DB_FILE)
     cur = conn.cursor()
-    cur.execute("SELECT user_id, name, group_size, preferred_environment, budget FROM users")
+    cur.execute("SELECT user_id, name, group_size, preferred_environment, must_have_feature, budget FROM users")
     rows = cur.fetchall()
     conn.close()
     return [User(*row) for row in rows]
@@ -67,15 +70,22 @@ def load_users():
 def load_properties():
     conn = sqlite3.connect(DB_FILE)
     cur = conn.cursor()
-    cur.execute("SELECT property_id, location, type, price_per_night, features, tags FROM properties")
+    cur.execute("SELECT property_id, name, location, allowed_number_check_in, type, price_per_night, features, tags FROM properties")
     rows = cur.fetchall()
+    print('rows in property res')
+    print(rows)
     conn.close()
-    properties = []
-    for row in rows:
-        features = row[4].split(",") if row[4] else []
-        tags = row[5].split(",") if row[5] else []
-        properties.append(Property(row[0], row[1], row[2], row[3], features, tags))
-    return properties
+
+    print('before return ')
+    print([Property(*row) for row in rows])
+    return [Property(*row) for row in rows]
+    # properties = []
+    # for row in rows:
+    #     features = row[6].split(",") if row[6] else []
+    #     tags = row[7].split(",") if row[7] else []
+    #     properties.append(Property(row[0], row[1], row[2], row[3], row[4], row[5], features, tags))
+    #
+    # return properties
 
 
 def delete_user(user_id):

@@ -56,6 +56,69 @@ def _party_score(capacity: np.ndarray, group_size: int,
 
 
 
+# gives a score based on group size & capacity of property
+def get_party_score(user: User, prop: Property):
+    group_size = user.group_size
+    capacity = prop.allowed_number_check_in
+    gs = max(int(group_size or 1), 1)
+    cap = np.maximum(capacity.astype(float), 0.0)
+    r = cap / gs
+    x = np.maximum(r - 1.0, 0.0)
+    if method == "linear":
+        s = x / max(r_sat - 1.0, 1e-9)
+    else:  # expo
+        s = 1.0 - np.exp(-k * x)
+
+    return np.clip(s, 0.0, 1.0)
+
+def score_property2(user: User, prop: Property):
+
+    #vars init
+    score = 0
+    budget = user.budget
+    preferred_environment = user.preferred_environment
+    must_have_features = user.must_have_features
+    group_size = user.group_size
+    prices = prop.price_per_night
+    tags = prop.tags
+
+    weights = DEFAULT_WEIGHTS
+
+    #weights calib
+    w_afford, w_env, w_feat, w_party = weights
+    total = w_afford + w_env + w_feat + w_party
+    if total == 0:
+        w_afford, w_env, w_feat, w_party = DEFAULT_WEIGHTS
+    else:
+        w_afford /= total
+        w_env /= total
+        w_feat /= total
+        w_party /= total
+
+    #calc afford score
+    # afford = np.clip((budget - prices) / max(budget, 0.001), 0.0, 1.0)
+    afford1 = (budget-prices)/max(budget, 0.001)
+    afford = afford1 if afford1 <=1 else 1.0
+
+    #calc pref env score
+    env = 0
+    if user.preferred_environment in prop.tags:
+        env += 1  # environment match is important
+
+    # calc must have feats env score
+    env2 = 0
+    if user.must_have_feature in prop.features:
+        env2 += 1  # must have feats match is important
+
+    #calc party score
+    party = get_party_score(user, prop)
+
+    #combining scores together
+    score = w_afford*afford + w_env*env + w_feat*env2 + w_party*party
+
+    return score
+
+
 def score_properties(
     df: pd.DataFrame,
     User,
@@ -68,57 +131,57 @@ def score_properties(
 ) -> pd.DataFrame:
     df = df.copy()
 
-    budget = float(getattr(User, "budget", 0.0) or 0.0) # 应该和TUT的那个user.budget是一样的
-    preferred_environment = getattr(User, "preferred_environment", None) # 应该和TUT的那个user.preferred_environment是一样的
-    must_have_features = getattr(User, "must_have_features", None) # 应该和TUT的那个user.must_have_features是一样的
-    group_size = int(
-        getattr(User, "group_size", 0) # 应该和TUT的那个user.group_size是一样的
-        or 1
-    )
+    # budget = float(getattr(User, "budget", 0.0) or 0.0) # 应该和TUT的那个user.budget是一样的
+    # preferred_environment = getattr(User, "preferred_environment", None) # 应该和TUT的那个user.preferred_environment是一样的
+    # must_have_features = getattr(User, "must_have_features", None) # 应该和TUT的那个user.must_have_features是一样的
+    # group_size = int(
+    #     getattr(User, "group_size", 0) # 应该和TUT的那个user.group_size是一样的
+    #     or 1
+    # )
 
 
-    w_afford, w_env, w_feat, w_party = weights  # 这个肯定是要改的， 因为这个应该对象是user吧
-    total = w_afford + w_env + w_feat + w_party
-    if total == 0:
-        w_afford, w_env, w_feat, w_party = DEFAULT_WEIGHTS
-    else:
-        w_afford /= total
-        w_env /= total
-        w_feat /= total
-        w_party /= total
+    # w_afford, w_env, w_feat, w_party = weights  # 这个肯定是要改的， 因为这个应该对象是user吧
+    # total = w_afford + w_env + w_feat + w_party
+    # if total == 0:
+    #     w_afford, w_env, w_feat, w_party = DEFAULT_WEIGHTS
+    # else:
+    #     w_afford /= total
+    #     w_env /= total
+    #     w_feat /= total
+    #     w_party /= total
 
-    prices = df["price_per_night"].to_numpy(dtype=float)
-    afford = np.clip((budget - prices) / max(budget, 0.001), 0.0, 1.0)
+    # prices = df["price_per_night"].to_numpy(dtype=float)
+    # afford = np.clip((budget - prices) / max(budget, 0.001), 0.0, 1.0)
 
-    if preferred_environment:
-        env = np.array(
-            [1.0 if preferred_environment in (tags or []) else 0.0 for tags in df["tags"]],
-            dtype=float,
-        )
-    else:
-        env = np.zeros(len(df), dtype=float)
+    # if preferred_environment:
+    #     env = np.array(
+    #         [1.0 if preferred_environment in (tags or []) else 0.0 for tags in df["tags"]],
+    #         dtype=float,
+    #     )
+    # else:
+    #     env = np.zeros(len(df), dtype=float)
 
 
-    if must_have_features:
-        mh = {str(f).lower() for f in must_have_features}
-        mh_len = max(len(mh), 1)
-        feat = np.array(
-            [
-                len(mh.intersection([str(f).lower() for f in (fs or [])])) / mh_len
-                for fs in df["features"]
-            ],
-            dtype=float,
-        )
-    else:
-        feat = np.zeros(len(df), dtype=float)
+    # if must_have_features:
+    #     mh = {str(f).lower() for f in must_have_features}
+    #     mh_len = max(len(mh), 1)
+    #     feat = np.array(
+    #         [
+    #             len(mh.intersection([str(f).lower() for f in (fs or [])])) / mh_len
+    #             for fs in df["features"]
+    #         ],
+    #         dtype=float,
+    #     )
+    # else:
+    #     feat = np.zeros(len(df), dtype=float)
 
     # -------- 入住人数差分（party_score）--------
-    cap_arr = df.get("allowed_number_check_in", pd.Series(0, index=df.index)).to_numpy(dtype=float)
-    party = np.where(
-        cap_arr > 0.0,
-        _party_score(cap_arr, group_size, method=party_method, k=party_k, r_sat=party_rsat),
-        0.0,
-    )
+    # cap_arr = df.get("allowed_number_check_in", pd.Series(0, index=df.index)).to_numpy(dtype=float)
+    # party = np.where(
+    #     cap_arr > 0.0,
+    #     _party_score(cap_arr, group_size, method=party_method, k=party_k, r_sat=party_rsat),
+    #     0.0,
+    # )
 
     df["afford_score"] = afford
     df["env_score"] = env

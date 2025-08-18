@@ -1,23 +1,42 @@
 [
   {
     "user_id": 1,
-    "name": "Alice",
+    "name": "Alice Johnson",
     "group_size": 2,
-    "preferred_environment": "mountain",
+    "preferred_environment": "mountain, lake",
+    "must_have_feature": "fireplace, hot tub",
     "budget": 200
   },
   {
     "user_id": 2,
-    "name": "Bob",
+    "name": "David Lee",
     "group_size": 4,
-    "preferred_environment": "beach",
-    "budget": 140
+    "preferred_environment": "lake, forest",
+    "must_have_feature": "wifi, canoe",
+    "budget": 300
   },
   {
     "user_id": 3,
-    "name": "Charlie",
-    "group_size": 1,
-    "preferred_environment": "urban",
-    "budget": 150
+    "name": "Sophia Patel",
+    "group_size": 6,
+    "preferred_environment": "city, coastal",
+    "must_have_feature": "wifi, balcony, kitchen",
+    "budget": 400
+  },
+  {
+    "user_id": 4,
+    "name": "Michael Chen",
+    "group_size": 3,
+    "preferred_environment": "coastal, forest",
+    "must_have_feature": "balcony, ocean view",
+    "budget": 250
+  },
+  {
+    "user_id": 5,
+    "name": "Emma Brown",
+    "group_size": 5,
+    "preferred_environment": "forest, mountain",
+    "must_have_feature": "fireplace, hiking trails",
+    "budget": 350
   }
 ]
