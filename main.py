@@ -91,7 +91,7 @@ def main():
                 rec_user_id = int(input("Enter your User ID: "))
             except ValueError:
                 print("Invalid ID")
-                continue2
+                continue
             user = next((u for u in users if u.user_id == rec_user_id), None)
             if not user:
                 print("User not found.")

@@ -32,7 +32,7 @@ def score_property2(user: User, prop: Property):
     afford1 = (user.budget - prop.price_per_night) / max(user.budget, 0.001)
     afford_score = afford1 if afford1 <= 1 else 1.0
 
-    #pref match (btwn 0 to 1  )
+    #pref match (btwn 0 to 1  ) s
     pref_matches = set(user.preferred_environment.split(",")) & set(prop.tags.split(","))
     pref_match_count = len(pref_matches)
     user_pref_count = len(user.preferred_environment.split(","))
@@ -52,7 +52,7 @@ def score_property2(user: User, prop: Property):
 
 def get_recommendations(user: User, properties: list, top_n=5):
 
-    scored = [(prop, score_property(user, prop)) for prop in properties]
+    scored = [(prop, score_property2(user, prop)) for prop in properties]
     # Sort descending by score
     scored = [x for x in scored if x[1] > 0]
     scored.sort(key=lambda x: x[1], reverse=True)

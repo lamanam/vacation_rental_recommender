@@ -4,7 +4,7 @@ import json
 import os
 from contextlib import contextmanager
 
-DB_FILE = "rentals.db"
+DB_FILE = "../rentals.db"
 PROPERTIES_JSON = "properties.json"
 USERS_JSON = "users.json"
 
