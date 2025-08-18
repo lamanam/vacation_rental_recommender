@@ -1,16 +1,18 @@
 # Team 12 Repo for RSM8431Y Python Project - Vacation Rental Recommender
 
-Overall Flow: 
+For README FILE:Overall Flow: 
 
-vacation_rental_recommender/
+TODO: Add a simple description for the project
+TODO: Add file structure and raw data files and database file -- ignore extra code 
 
-│── main.py              # CLI menu app
-│── user_property.py            # Property, User classes
-│── database.py      # JSON + SQLite load/save
-│── recommender.py       # Ranking logic
-│── properties.json      # Sample property data
-│── users.json           # Sample user data
-│── rentals.db           # SQLite DB (autocreated)
+How to run this CLI app:
+
+1. Clone git repo to local machine 
+2. Create virtual env called venv_rental: python3 -m venv venv_rental
+2. Activate virtual env: venv_rental/bin/activate
+2. Install library requirements: pip install -r requirements.txt
+3. Run app: python3 main.py 
+4. After run is finished - deactivate venv: deactivate 
 
 
 
