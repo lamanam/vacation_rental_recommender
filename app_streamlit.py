@@ -4,7 +4,7 @@ import requests
 from user_property import User, Property
 import pandas as pd
 import database
-from recommender import get_recommendations
+from recommender_new import get_recommendations
 
 # -------------------------------
 # Helper functions for display

@@ -41,7 +41,13 @@ def insert_user(user: User):
     cur.execute("""
     INSERT OR REPLACE INTO users (user_id, name, group_size, preferred_environment, must_have_feature, budget)
     VALUES (?, ?, ?, ?, ?, ?)""",
-    (user.user_id, user.name, user.group_size, user.preferred_environment, user.must_have_feature, user.budget))
+    (user.user_id, 
+     user.name, 
+     user.group_size, 
+     # both preferred_environment and must_have_feature were lists, and SQLite doesn’t know how to handle lists directly, so json.dumps() converted them into plain strings that SQLite can store.
+     json.dumps(user.preferred_environment) if user.preferred_environment is not None else None,
+     json.dumps(user.must_have_feature) if user.must_have_feature is not None else None,
+     user.budget))
     conn.commit()
     conn.close()
 
