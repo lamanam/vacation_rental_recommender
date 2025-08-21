@@ -3,7 +3,7 @@
 ## Project Description
 
 This project is a **Vacation Rental Recommender System** built with Python and Streamlit.
-It allows users to input their preferences (budget, group size, travel dates, etc.) and returns personalized vacation rental recommendations based on our curated dataset and recommendation logic.
+It allows users to input their preferences (budget, group size, must have features, etc.) and returns personalized vacation rental recommendations based on our curated dataset and recommendation logic.
 
 ---
 
