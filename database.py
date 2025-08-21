@@ -56,10 +56,19 @@ def insert_property(prop: Property):
     conn = sqlite3.connect(DB_FILE)
     cur = conn.cursor()
     cur.execute("""
-    INSERT OR REPLACE INTO properties (property_id, name, location, allowed_number_check_in, type, price_per_night, features, tags)
+    INSERT OR REPLACE INTO properties 
+    (property_id, name, location, allowed_number_check_in, type, price_per_night, features, tags)
     VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
-    (prop.property_id, prop.name, prop.location, prop.allowed_number_check_in, prop.type, prop.price_per_night, prop.features, prop.tags))
-     # ",".join(prop.features), ",".join(prop.tags) ))
+    (
+        prop.property_id,
+        prop.name,
+        prop.location,
+        prop.allowed_number_check_in,
+        prop.type,
+        prop.price_per_night,
+        prop.features,
+        prop.tags
+    ))
     conn.commit()
     conn.close()
 
@@ -76,22 +85,13 @@ def load_users():
 def load_properties():
     conn = sqlite3.connect(DB_FILE)
     cur = conn.cursor()
-    cur.execute("SELECT property_id, name, location, allowed_number_check_in, type, price_per_night, features, tags FROM properties")
+    cur.execute("""
+    SELECT property_id, name, location, allowed_number_check_in, type, price_per_night, features, tags 
+    FROM properties
+    """)
     rows = cur.fetchall()
-    print('rows in property res')
-    print(rows)
     conn.close()
-
-    print('before return ')
-    print([Property(*row) for row in rows])
     return [Property(*row) for row in rows]
-    # properties = []
-    # for row in rows:
-    #     features = row[6].split(",") if row[6] else []
-    #     tags = row[7].split(",") if row[7] else []
-    #     properties.append(Property(row[0], row[1], row[2], row[3], row[4], row[5], features, tags))
-    #
-    # return properties
 
 
 def delete_user(user_id):
