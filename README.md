@@ -55,7 +55,7 @@ It allows users to input their preferences (budget, group size, must have featur
    pip install -r requirements.txt
    ```
 
-5. Run the Streamlit web app:
+5. Run the Streamlit web app (**Make sure you delete the rentals.db before run every time you updated the properties.json file**):
 
    ```bash
    streamlit run app_streamlit.py
