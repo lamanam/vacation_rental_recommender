@@ -1,0 +1,202 @@
+[
+  {
+    "property_id": 1,
+    "name": "Whistler Alpine Lodge",
+    "location": "Whistler, BC",
+    "allowed_number_check_in": 6,
+    "type": "chalet",
+    "price_per_night": 320,
+    "features": "ski-in/ski-out, fireplace, hot tub",
+    "tags": "mountain, ski, family-friendly"
+  },
+  {
+    "property_id": 2,
+    "name": "Toronto Skyline Loft",
+    "location": "Toronto, ON",
+    "allowed_number_check_in": 2,
+    "type": "apartment",
+    "price_per_night": 200,
+    "features": "wifi, balcony, kitchen",
+    "tags": "city, modern"
+  },
+  {
+    "property_id": 3,
+    "name": "Banff Mountain Cabin",
+    "location": "Banff, AB",
+    "allowed_number_check_in": 4,
+    "type": "cabin",
+    "price_per_night": 280,
+    "features": "fireplace, hot tub, mountain view",
+    "tags": "mountain, luxury"
+  },
+  {
+    "property_id": 4,
+    "name": "Halifax Oceanview Condo",
+    "location": "Halifax, NS",
+    "allowed_number_check_in": 3,
+    "type": "condo",
+    "price_per_night": 190,
+    "features": "balcony, wifi, ocean view",
+    "tags": "coastal, city"
+  },
+  {
+    "property_id": 5,
+    "name": "Muskoka Lakehouse Retreat",
+    "location": "Muskoka, ON",
+    "allowed_number_check_in": 8,
+    "type": "cottage",
+    "price_per_night": 400,
+    "features": "lake access, fireplace, canoe",
+    "tags": "lake, family-friendly"
+  },
+  {
+    "property_id": 6,
+    "name": "Quebec City Heritage Loft",
+    "location": "Quebec City, QC",
+    "allowed_number_check_in": 2,
+    "type": "loft",
+    "price_per_night": 180,
+    "features": "fireplace, wifi, balcony",
+    "tags": "city, historic"
+  },
+  {
+    "property_id": 7,
+    "name": "Blue Mountain Ski Chalet",
+    "location": "Blue Mountains, ON",
+    "allowed_number_check_in": 6,
+    "type": "chalet",
+    "price_per_night": 310,
+    "features": "ski-in/ski-out, hot tub, fireplace",
+    "tags": "mountain, ski"
+  },
+  {
+    "property_id": 8,
+    "name": "Victoria Seaside Villa",
+    "location": "Victoria, BC",
+    "allowed_number_check_in": 5,
+    "type": "villa",
+    "price_per_night": 350,
+    "features": "ocean view, balcony, garden",
+    "tags": "coastal, romantic"
+  },
+  {
+    "property_id": 9,
+    "name": "Calgary Downtown Suite",
+    "location": "Calgary, AB",
+    "allowed_number_check_in": 2,
+    "type": "apartment",
+    "price_per_night": 170,
+    "features": "wifi, kitchen, balcony",
+    "tags": "city, modern"
+  },
+  {
+    "property_id": 10,
+    "name": "Algonquin Forest Cabin",
+    "location": "Algonquin Park, ON",
+    "allowed_number_check_in": 4,
+    "type": "cabin",
+    "price_per_night": 240,
+    "features": "fireplace, hiking trails, lake access",
+    "tags": "forest, nature"
+  },
+  {
+    "property_id": 11,
+    "name": "Montreal Artistic Loft",
+    "location": "Montreal, QC",
+    "allowed_number_check_in": 3,
+    "type": "apartment",
+    "price_per_night": 210,
+    "features": "wifi, kitchen, balcony",
+    "tags": "city, cultural"
+  },
+  {
+    "property_id": 12,
+    "name": "Niagara Falls View Condo",
+    "location": "Niagara Falls, ON",
+    "allowed_number_check_in": 4,
+    "type": "condo",
+    "price_per_night": 220,
+    "features": "balcony, wifi, parking",
+    "tags": "city, scenic"
+  },
+  {
+    "property_id": 13,
+    "name": "PEI Coastal Cottage",
+    "location": "Prince Edward Island, PE",
+    "allowed_number_check_in": 5,
+    "type": "cottage",
+    "price_per_night": 190,
+    "features": "ocean view, garden, balcony",
+    "tags": "coastal, family-friendly"
+  },
+  {
+    "property_id": 14,
+    "name": "Lake Louise Mountain Lodge",
+    "location": "Lake Louise, AB",
+    "allowed_number_check_in": 6,
+    "type": "lodge",
+    "price_per_night": 360,
+    "features": "hot tub, fireplace, mountain view",
+    "tags": "mountain, luxury"
+  },
+  {
+    "property_id": 15,
+    "name": "Ottawa Riverside Apartment",
+    "location": "Ottawa, ON",
+    "allowed_number_check_in": 2,
+    "type": "apartment",
+    "price_per_night": 180,
+    "features": "wifi, balcony, kitchen",
+    "tags": "city, riverside"
+  },
+  {
+    "property_id": 16,
+    "name": "Kelowna Vineyard Villa",
+    "location": "Kelowna, BC",
+    "allowed_number_check_in": 4,
+    "type": "villa",
+    "price_per_night": 330,
+    "features": "balcony, vineyard view, fireplace",
+    "tags": "lake, luxury"
+  },
+  {
+    "property_id": 17,
+    "name": "Jasper National Park Cabin",
+    "location": "Jasper, AB",
+    "allowed_number_check_in": 6,
+    "type": "cabin",
+    "price_per_night": 290,
+    "features": "fireplace, hiking trails, mountain view",
+    "tags": "forest, mountain"
+  },
+  {
+    "property_id": 18,
+    "name": "St. John’s Harbour Loft",
+    "location": "St. John's, NL",
+    "allowed_number_check_in": 2,
+    "type": "loft",
+    "price_per_night": 200,
+    "features": "ocean view, balcony, wifi",
+    "tags": "coastal, historic"
+  },
+  {
+    "property_id": 19,
+    "name": "Sun Peaks Ski Chalet",
+    "location": "Sun Peaks, BC",
+    "allowed_number_check_in": 6,
+    "type": "chalet",
+    "price_per_night": 300,
+    "features": "ski-in/ski-out, fireplace, hot tub",
+    "tags": "mountain, ski"
+  },
+  {
+    "property_id": 20,
+    "name": "Saskatoon Modern Loft",
+    "location": "Saskatoon, SK",
+    "allowed_number_check_in": 2,
+    "type": "loft",
+    "price_per_night": 160,
+    "features": "wifi, kitchen, balcony",
+    "tags": "city, modern"
+  }
+]
