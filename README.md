@@ -1,18 +1,77 @@
 # Team 12 Repo for RSM8431Y Python Project - Vacation Rental Recommender
 
-For README FILE:Overall Flow: 
+## Project Description
 
-TODO: Add a simple description for the project
-TODO: Add file structure and raw data files and database file -- ignore extra code 
+This project is a **Vacation Rental Recommender System** built with Python and Streamlit.
+It allows users to input their preferences (budget, group size, travel dates, etc.) and returns personalized vacation rental recommendations based on our curated dataset and recommendation logic.
 
-How to run this CLI app:
+---
 
-1. Clone git repo to local machine 
-2. Create virtual env called venv_rental: python3 -m venv venv_rental
-2. Activate virtual env: venv_rental/bin/activate
-2. Install library requirements: pip install -r requirements.txt
-3. Run app: python3 main.py 
-4. After run is finished - deactivate venv: deactivate 
+## File Structure
+
+* `app_streamlit.py` → Main Streamlit web app
+* `user_property.py` → Defines User and Property classes
+* `database.py` → Handles database connections and queries
+* `recommender.py` → Recommendation logic
+* `rentals.db` → SQLite database of rental properties
+* `requirements.txt` → Python library dependencies
+* `properties.json` → Raw property dataset
+
+*(extra helper files or copies are ignored here for clarity)*
+
+---
+
+## How to Run the Web App
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone <repo-url>
+   cd vacation_rental_recommender
+   ```
+
+2. Create a virtual environment:
+
+   ```bash
+   python3 -m venv venv_rental
+   ```
+
+3. Activate the virtual environment:
+
+   * macOS/Linux:
+
+     ```bash
+     source venv_rental/bin/activate
+     ```
+   * Windows (PowerShell):
+
+     ```powershell
+     venv_rental\Scripts\activate
+     ```
+
+4. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. Run the Streamlit web app:
+
+   ```bash
+   streamlit run app_streamlit.py
+   ```
+
+6. The app will open automatically in your browser at:
+
+   ```
+   http://localhost:8501
+   ```
+
+7. When finished, deactivate the virtual environment:
+
+   ```bash
+   deactivate
+   ```
 
 
 
