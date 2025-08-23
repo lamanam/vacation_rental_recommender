@@ -1,0 +1,14 @@
+property_id,name,location,allowed_number_check_in,type,price_per_night,features,tags,feature_count,feature_match,feature_score,tags_count,tags_match,tags_score,affordability_score1,afford_score,final_score
+2,Forest Hideaway,Whistler,4,cabin,280.0,"wifi, grill, fireplace","forest, lake",3,0,0.0,2,1,0.5,0.0,0.0,0.1
+3,Lakeview Cottage,Muskoka,3,cottage,240.0,"balcony, wifi, canoe","lake, countryside",3,0,0.0,2,0,0.0,0.14285714285714285,0.14285714285714285,0.049999999999999996
+6,Lakeside Lodge,Ontario,4,lodge,260.0,"canoe, grill, wifi","lake, forest",3,0,0.0,2,1,0.5,0.07142857142857142,0.07142857142857142,0.125
+7,Seaside Bungalow,California,3,bungalow,270.0,"pool, wifi, ac","beach, forest",3,1,0.33,2,2,1.0,0.03571428571428571,0.03571428571428571,0.36100000000000004
+10,Lakefront Cabin,Quebec,4,cabin,230.0,"canoe, fireplace, wifi","lake, countryside",3,0,0.0,2,0,0.0,0.17857142857142858,0.17857142857142858,0.0625
+12,Desert Oasis Camp,Arizona,3,tent,150.0,"grill, wifi, pool","forest, lake",3,1,0.33,2,1,0.5,0.4642857142857143,0.4642857142857143,0.41100000000000003
+14,Rustic Farmhouse,Vermont,5,farmhouse,250.0,"fireplace, grill, wifi","countryside, lake",3,0,0.0,2,0,0.0,0.10714285714285714,0.10714285714285714,0.0375
+19,Riverfront Cottage,Nova Scotia,3,cottage,210.0,"grill, balcony, wifi","lake, countryside",3,0,0.0,2,0,0.0,0.25,0.25,0.0875
+22,Forest Eco-Lodge,Amazon,4,lodge,260.0,"grill, wifi, balcony","forest, lake",3,0,0.0,2,1,0.5,0.07142857142857142,0.07142857142857142,0.125
+24,Hilltop Cottage,Ireland,3,cottage,200.0,"fireplace, balcony, wifi","countryside, lake",3,0,0.0,2,0,0.0,0.2857142857142857,0.2857142857142857,0.09999999999999999
+25,Luxury Desert Dome,Dubai,4,tent,280.0,"ac, wifi, pool","forest, lake",3,1,0.33,2,1,0.5,0.0,0.0,0.24850000000000003
+28,Coastal Cottage,Nova Scotia,4,cottage,230.0,"grill, wifi, balcony","beach, forest",3,0,0.0,2,2,1.0,0.17857142857142858,0.17857142857142858,0.2625
+29,Modern Lake Cabin,Sweden,3,cabin,260.0,"balcony, wifi, fireplace","lake, mountain",3,0,0.0,2,0,0.0,0.07142857142857142,0.07142857142857142,0.024999999999999998

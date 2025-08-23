@@ -10,23 +10,16 @@ W_MUST_HAVE = 0.45
 def properties_to_df(properties: list[Property]) -> pd.DataFrame:
     return pd.DataFrame([p.to_dict() for p in properties])
 
-def clean_split(text, delimiter=","):
-    """
-    Splits a string by a delimiter, removes extra whitespace,
-    and returns a list of clean tokens.
-    """
-    return [part.strip() for part in text.split(delimiter) if part.strip()]
-
 def score_property(user: User, prop_df: pd.DataFrame) -> pd.DataFrame:
 
     #get must have feature score
-    prop_df["feature_count"] = prop_df["features"].apply(lambda feats: len(clean_split(feats)))
-    prop_df["feature_match"] = prop_df["features"].apply(lambda feats: len(set(clean_split(feats)) & set(clean_split(user.must_have_feature))))
+    prop_df["feature_count"] = prop_df["features"].apply(lambda feats: len(feats.split(",")))
+    prop_df["feature_match"] = prop_df["features"].apply(lambda feats: len(set(feats.split(",")) & set(user.must_have_feature.split(","))))
     prop_df["feature_score"] = prop_df.apply(lambda row: 0 if row['feature_count']==0 else (round(row['feature_match']/row['feature_count'],2)), axis=1)
 
     #get prefered env score
-    prop_df["tags_count"] = prop_df["tags"].apply(lambda tags: len(clean_split(tags)))
-    prop_df["tags_match"] = prop_df["tags"].apply(lambda tags: len(set(clean_split(tags)) & set(clean_split(user.preferred_environment))))
+    prop_df["tags_count"] = prop_df["tags"].apply(lambda feats: len(feats.split(",")))
+    prop_df["tags_match"] = prop_df["tags"].apply(lambda tags: len(set(tags.split(",")) & set(user.preferred_environment.split(","))))
     prop_df["tags_score"] = prop_df.apply(lambda row: 0 if row['tags_count'] == 0 else (round(row['tags_match'] / row['tags_count'], 2)), axis=1)
 
     #get affordability score
@@ -34,13 +27,15 @@ def score_property(user: User, prop_df: pd.DataFrame) -> pd.DataFrame:
     prop_df['afford_score'] = prop_df['affordability_score1'].apply(lambda a: a if a<=1 else 1.0)
 
     # get final score (weighted sum — can adjust weights)
-    prop_df["final_score"] = (
+    prop_df["final_score_v1"] = (
             W_MUST_HAVE * prop_df["feature_score"] +
             W_PREF * prop_df["tags_score"] +
             W_BUDGET * prop_df["afford_score"]
     )
-    prop_df.to_csv('user_results/test_output_user_{}.csv'.format(user.user_id), index=False)
-    return prop_df[(prop_df['final_score'] > 0) & (prop_df['feature_score'] > 0)]
+    prop_df["final_score"] = prop_df.apply(
+        lambda row: 0 if row['feature_match'] == 0 else row['final_score_v1'], axis=1)
+    # prop_df.to_csv('test_output.csv', index=False)
+    return prop_df[prop_df['final_score']>0]
 
 
 def get_recommendations(user: User, properties: list, top_n=5) -> list:
@@ -64,7 +59,3 @@ def get_recommendations(user: User, properties: list, top_n=5) -> list:
     top_properties = [Property.from_dict(row.to_dict()) for _, row in top_property_df.iterrows()]
 
     return top_properties
-
-
-
-

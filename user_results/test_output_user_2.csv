@@ -1,0 +1,8 @@
+property_id,name,location,allowed_number_check_in,type,price_per_night,features,tags,feature_count,feature_match,feature_score,tags_count,tags_match,tags_score,affordability_score1,afford_score,final_score
+2,Forest Hideaway,Whistler,4,cabin,280.0,"wifi, grill, fireplace","forest, lake",3,1,0.33,2,2,1.0,0.06666666666666667,0.06666666666666667,0.37183333333333335
+6,Lakeside Lodge,Ontario,4,lodge,260.0,"canoe, grill, wifi","lake, forest",3,1,0.33,2,2,1.0,0.13333333333333333,0.13333333333333333,0.39516666666666667
+10,Lakefront Cabin,Quebec,4,cabin,230.0,"canoe, fireplace, wifi","lake, countryside",3,1,0.33,2,1,0.5,0.23333333333333334,0.23333333333333334,0.3301666666666667
+14,Rustic Farmhouse,Vermont,5,farmhouse,250.0,"fireplace, grill, wifi","countryside, lake",3,1,0.33,2,1,0.5,0.16666666666666666,0.16666666666666666,0.30683333333333335
+22,Forest Eco-Lodge,Amazon,4,lodge,260.0,"grill, wifi, balcony","forest, lake",3,1,0.33,2,2,1.0,0.13333333333333333,0.13333333333333333,0.39516666666666667
+25,Luxury Desert Dome,Dubai,4,tent,280.0,"ac, wifi, pool","forest, lake",3,1,0.33,2,2,1.0,0.06666666666666667,0.06666666666666667,0.37183333333333335
+28,Coastal Cottage,Nova Scotia,4,cottage,230.0,"grill, wifi, balcony","beach, forest",3,1,0.33,2,1,0.5,0.23333333333333334,0.23333333333333334,0.3301666666666667

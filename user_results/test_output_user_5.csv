@@ -1,0 +1,8 @@
+property_id,name,location,allowed_number_check_in,type,price_per_night,features,tags,feature_count,feature_match,feature_score,tags_count,tags_match,tags_score,affordability_score1,afford_score,final_score
+5,Countryside Retreat,Tuscany,2,farmhouse,180.0,"balcony, fireplace, wifi","countryside, lake",3,1,0.33,2,2,1.0,0.1,0.1,0.3835
+9,Jungle Treehouse,Costa Rica,2,treehouse,190.0,"balcony, wifi, grill","forest, beach",3,1,0.33,2,0,0.0,0.05,0.05,0.166
+11,Modern City Loft,Toronto,2,apartment,200.0,"wifi, ac, balcony","lake, countryside",3,1,0.33,2,2,1.0,0.0,0.0,0.34850000000000003
+12,Desert Oasis Camp,Arizona,3,tent,150.0,"grill, wifi, pool","forest, lake",3,0,0.0,2,1,0.5,0.25,0.25,0.1875
+18,Tropical Beach Hut,Bali,2,hut,180.0,"balcony, wifi, pool","beach, forest",3,1,0.33,2,0,0.0,0.1,0.1,0.18350000000000002
+21,Mountain Hut,Nepal,2,hut,140.0,"fireplace, balcony, wifi","mountain, forest",3,1,0.33,2,0,0.0,0.3,0.3,0.2535
+24,Hilltop Cottage,Ireland,3,cottage,200.0,"fireplace, balcony, wifi","countryside, lake",3,1,0.33,2,2,1.0,0.0,0.0,0.34850000000000003

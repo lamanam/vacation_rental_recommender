@@ -1,0 +1,12 @@
+property_id,name,location,allowed_number_check_in,type,price_per_night,features,tags,feature_count,feature_match,feature_score,tags_count,tags_match,tags_score,affordability_score1,afford_score,final_score
+1,Mountain Escape Cabin,Banff,2,cabin,210.0,"fireplace, wifi, balcony","mountain, lake",3,1,0.33,2,2,1.0,0.045454545454545456,0.045454545454545456,0.36440909090909096
+5,Countryside Retreat,Tuscany,2,farmhouse,180.0,"balcony, fireplace, wifi","countryside, lake",3,1,0.33,2,1,0.5,0.18181818181818182,0.18181818181818182,0.31213636363636366
+9,Jungle Treehouse,Costa Rica,2,treehouse,190.0,"balcony, wifi, grill","forest, beach",3,0,0.0,2,0,0.0,0.13636363636363635,0.13636363636363635,0.04772727272727272
+11,Modern City Loft,Toronto,2,apartment,200.0,"wifi, ac, balcony","lake, countryside",3,0,0.0,2,1,0.5,0.09090909090909091,0.09090909090909091,0.13181818181818183
+12,Desert Oasis Camp,Arizona,3,tent,150.0,"grill, wifi, pool","forest, lake",3,0,0.0,2,1,0.5,0.3181818181818182,0.3181818181818182,0.21136363636363636
+15,Forest Cabin Retreat,Yosemite,2,cabin,220.0,"balcony, fireplace, wifi","forest, mountain",3,1,0.33,2,1,0.5,0.0,0.0,0.24850000000000003
+18,Tropical Beach Hut,Bali,2,hut,180.0,"balcony, wifi, pool","beach, forest",3,0,0.0,2,0,0.0,0.18181818181818182,0.18181818181818182,0.06363636363636363
+19,Riverfront Cottage,Nova Scotia,3,cottage,210.0,"grill, balcony, wifi","lake, countryside",3,0,0.0,2,1,0.5,0.045454545454545456,0.045454545454545456,0.1159090909090909
+21,Mountain Hut,Nepal,2,hut,140.0,"fireplace, balcony, wifi","mountain, forest",3,1,0.33,2,1,0.5,0.36363636363636365,0.36363636363636365,0.37577272727272726
+24,Hilltop Cottage,Ireland,3,cottage,200.0,"fireplace, balcony, wifi","countryside, lake",3,1,0.33,2,1,0.5,0.09090909090909091,0.09090909090909091,0.28031818181818186
+26,Secluded Island Hut,Fiji,2,hut,220.0,"balcony, pool, wifi","beach, forest",3,0,0.0,2,0,0.0,0.0,0.0,0.0

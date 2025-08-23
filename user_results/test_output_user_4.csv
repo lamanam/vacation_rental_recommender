@@ -1,0 +1,6 @@
+property_id,name,location,allowed_number_check_in,type,price_per_night,features,tags,feature_count,feature_match,feature_score,tags_count,tags_match,tags_score,affordability_score1,afford_score,final_score
+4,Beachfront Villa,Maui,5,villa,390.0,"pool, wifi, balcony","beach, forest",3,0,0.0,2,1,0.5,0.025,0.025,0.10875
+8,Alpine Chalet,Swiss Alps,5,chalet,350.0,"fireplace, balcony, grill","mountain, lake",3,1,0.33,2,1,0.5,0.125,0.125,0.29225
+14,Rustic Farmhouse,Vermont,5,farmhouse,250.0,"fireplace, grill, wifi","countryside, lake",3,1,0.33,2,0,0.0,0.375,0.375,0.27975
+17,Ski Lodge,Colorado,5,lodge,340.0,"fireplace, grill, wifi","mountain, forest",3,1,0.33,2,2,1.0,0.15,0.15,0.401
+27,Historic Countryside Manor,England,6,villa,360.0,"fireplace, balcony, wifi","countryside, lake",3,0,0.0,2,0,0.0,0.1,0.1,0.034999999999999996
