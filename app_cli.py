@@ -4,6 +4,7 @@ from user_property import User
 import database
 from recommender import get_recommendations
 
+## Print user profile information
 def print_user(user):
     print(f"ID: {user.user_id} | Name: {user.name} | Group: {user.group_size} | Env: {user.preferred_environment} | Must Have Features: {user.must_have_feature}  | Budget: ${user.budget}")
 
@@ -15,22 +16,27 @@ def print_property(prop):
 
 
 def main():
-    
-    # step 1: create db tables if they don't exist
+    """
+    Entry point for the Vacation Rental Recommender:
+    1) Initialize persistence (create tables; seed from JSON if empty).
+    2) Load users and properties into memory for quick viewing.
+    3) Present an interactive menu for basic CRUD and recommendations.
+    """
+    # step 1: Ensure the required database tables exist before any operations
     database.create_tables()
     print('Created tables')
 
-    # step 2: If tables are empty - load from sample json for each users and properties
+    # step 2: If tables are empty, load from sample json for each user and properties
     database.load_json_to_db()
     print('Loaded users & properties from json')
 
-    # step 3: get all users and properties in the db 
+    # step 3: Pull current snapshots of users and properties for listing/selection. 
     users = database.load_users()
     properties = database.load_properties()
     print('extracted users list ... num of users ', len(users))
     print('extracted properties list ... num of properties ', len(properties))
     
-    # step 4: options inf loop
+    # step 4: Main interaction loop: show menu, accept input, and dispatch actions.
     while True:
         print("\n=== Vacation Rental Recommender ===")
         print("1. Create User Profile")
@@ -43,7 +49,7 @@ def main():
         choice = input("Choose an option: ").strip()
 
         if choice == "1":
-            # Create user
+            # Create a new user profile from console input; validate data types.
             try:
                 user_id = int(input("User ID (integer): "))
                 name = input("Name: ")
@@ -54,7 +60,8 @@ def main():
             except ValueError:
                 print("Invalid input. Please enter correct data types.")
                 continue
-
+                
+            # Save the new user and refresh the in-memory user list.
             user = User(user_id, name, group_size, preferred_env, must_have_feats, budget)
             database.insert_user(user)
             users = database.load_users()  # reload after insert
@@ -86,7 +93,7 @@ def main():
                 print_property(p)
 
         elif choice == "5":
-            # Get recommendations
+            # Produce recommendations for a specific user based on user ID; print top matches.
             try:
                 rec_user_id = int(input("Enter your User ID: "))
             except ValueError:
