@@ -1,5 +1,6 @@
 # property & user defs
 
+#Initialize a Property object with its basic attributes
 class Property:
     def __init__(self, property_id, name, location, allowed_number_check_in, type_, price_per_night, features, tags):
         self.property_id = property_id
@@ -10,7 +11,9 @@ class Property:
         self.price_per_night = price_per_night
         self.features = features
         self.tags = tags
-
+        
+    #Convert the Property object into a dictionary. Useful for exporting to JSON, DataFrame and saving to a database.
+    #It returns a Dictionary representation of the property
     def to_dict(self):
         return {
             "property_id": self.property_id,
@@ -22,7 +25,8 @@ class Property:
             "features": self.features,
             "tags": self.tags
         }
-
+ 
+    #Create a Property object from a dictionary. Useful when loading property data from JSON or a database.
     @classmethod
     def from_dict(cls, d):
         return cls(
@@ -37,6 +41,7 @@ class Property:
         )
 
 
+#Initialize a User object with their basic attributes
 class User:
     def __init__(self, user_id, name, group_size, preferred_environment, must_have_feature, budget):
         self.user_id = user_id
@@ -45,7 +50,8 @@ class User:
         self.preferred_environment = preferred_environment
         self.must_have_feature = must_have_feature
         self.budget = budget
-
+        
+    #Convert the User object into a dictionary
     def to_dict(self):
         return {
             "user_id": self.user_id,
@@ -56,6 +62,7 @@ class User:
             "budget": self.budget
         }
 
+    #Create a User object from a dictionary
     @classmethod
     def from_dict(cls, d):
         return cls(
