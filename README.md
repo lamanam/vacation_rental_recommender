@@ -3,7 +3,7 @@
 ## Project Description
 
 This project is a **Vacation Rental Recommender System** built with Python and Streamlit.
-It allows users to input their preferences (budget, group size, must have features, etc.) and returns personalized vacation rental recommendations based on our curated dataset and recommendation logic.
+It allows users to input their preferences (budget, group size, must-have features, etc.) and returns personalized vacation rental recommendations based on our curated dataset and recommendation logic.
 
 ---
 
@@ -13,15 +13,15 @@ It allows users to input their preferences (budget, group size, must have featur
 * `user_property.py` → Defines User and Property classes
 * `database.py` → Handles database connections and queries
 * `recommender.py` → Recommendation logic
-* `rentals.db` → SQLite database of rental properties
+* `rentals.db` → SQLite database of rental properties (**generated automatically; not tracked in Git**)
 * `requirements.txt` → Python library dependencies
 * `properties.json` → Raw property dataset
 
-*(extra helper files or copies are ignored here for clarity)*
+Additional helper files or copies are omitted for clarity.
 
 ---
 
-## How to Run the Web App
+## Setup Instructions
 
 1. Clone the repository to your local machine:
 
@@ -30,7 +30,7 @@ It allows users to input their preferences (budget, group size, must have featur
    cd vacation_rental_recommender
    ```
 
-2. Create a virtual environment:
+2. Create a virtual environment (Python 3.12 or above recommended):
 
    ```bash
    python3 -m venv venv_rental
@@ -49,17 +49,21 @@ It allows users to input their preferences (budget, group size, must have featur
      venv_rental\Scripts\activate
      ```
 
-4. Install dependencies:
+4. Upgrade pip and install dependencies:
 
    ```bash
+   pip install --upgrade pip
    pip install -r requirements.txt
    ```
 
-5. Run the Streamlit web app (**Make sure you delete the rentals.db before run every time you updated the properties.json file**):
+5. Run the Streamlit web app:
 
    ```bash
    streamlit run app_streamlit.py
    ```
+
+   > **Note:** The SQLite database `rentals.db` is generated automatically from `properties.json`.
+   > If you update `properties.json`, delete `rentals.db` before running the app again to rebuild it.
 
 6. The app will open automatically in your browser at:
 
@@ -73,5 +77,16 @@ It allows users to input their preferences (budget, group size, must have featur
    deactivate
    ```
 
+---
 
+## Git Ignore Recommendation
 
+Ensure the following files/directories are ignored in Git:
+
+```
+rentals.db
+venv_rental/
+__pycache__/
+```
+
+---
