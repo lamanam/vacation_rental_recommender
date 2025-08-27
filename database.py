@@ -41,7 +41,7 @@ def insert_user(user: User):
     cur.execute("""
     INSERT OR REPLACE INTO users (user_id, name, group_size, preferred_environment, must_have_feature, budget)
     VALUES (?, ?, ?, ?, ?, ?)""",
-    (user.user_id, user.name, user.group_size, user.preferred_environment, user.must_have_feature, user.budget))
+    (user.user_id, user.name, user.group_size, json.dumps(user.preferred_environment),json.dumps(user.must_have_feature), user.budget))
     conn.commit()
     conn.close()
 
@@ -73,7 +73,19 @@ def load_users():
     cur.execute("SELECT user_id, name, group_size, preferred_environment, must_have_feature, budget FROM users")
     rows = cur.fetchall()
     conn.close()
-    return [User(*row) for row in rows]
+
+    users = []
+    for row in rows:
+        user_id, name, group_size, preferred_environment, must_have_feature, budget = row
+        users.append(User(
+            user_id,
+            name,
+            group_size,
+            json.loads(preferred_environment) if preferred_environment else [],
+            json.loads(must_have_feature) if must_have_feature else [],
+            budget
+        ))
+    return users
 
 
 def load_properties():

@@ -12,10 +12,14 @@ def properties_to_df(properties: list[Property]) -> pd.DataFrame:
 
 def clean_split(text, delimiter=","):
     """
-    Splits a string by a delimiter, removes extra whitespace,
-    and returns a list of clean tokens.
+    Splits a string or list into clean tokens.
     """
-    return [part.strip() for part in text.split(delimiter) if part.strip()]
+    if isinstance(text, list):  
+        return [str(part).strip() for part in text if str(part).strip()]
+    elif isinstance(text, str):  
+        return [part.strip() for part in text.split(delimiter) if part.strip()]
+    else:
+        return []
 
 def score_property(user: User, prop_df: pd.DataFrame) -> pd.DataFrame:
 
