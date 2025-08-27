@@ -43,7 +43,7 @@ def display_user(user):
             st.write(user.name)
             st.write(user.group_size)
             st.write(", ".join(user.preferred_environment) if isinstance(user.preferred_environment, list) else user.preferred_environment)
-            st.write(user.must_have_feature)
+            st.write(", ".join(user.must_have_feature) if isinstance(user.must_have_feature, list) else user.must_have_feature)
             st.write(f"${user.budget}")
 
         st.markdown("</div>", unsafe_allow_html=True)

@@ -1,31 +1,8 @@
 property_id,name,location,allowed_number_check_in,type,price_per_night,features,tags,feature_count,feature_match,feature_score,tags_count,tags_match,tags_score,affordability_score1,afford_score,final_score
-1,Mountain Escape Cabin,Banff,2,cabin,210.0,"fireplace, wifi, balcony","mountain, lake",3,1,0.33,2,1,0.5,0.58,0.58,0.4515
-2,Forest Hideaway,Whistler,4,cabin,280.0,"wifi, grill, fireplace","forest, lake",3,1,0.33,2,1,0.5,0.44,0.44,0.4025
-3,Lakeview Cottage,Muskoka,3,cottage,240.0,"balcony, wifi, canoe","lake, countryside",3,0,0.0,2,1,0.5,0.52,0.52,0.28200000000000003
-4,Beachfront Villa,Maui,5,villa,390.0,"pool, wifi, balcony","beach, forest",3,0,0.0,2,1,0.5,0.22,0.22,0.177
-5,Countryside Retreat,Tuscany,2,farmhouse,180.0,"balcony, fireplace, wifi","countryside, lake",3,1,0.33,2,1,0.5,0.64,0.64,0.47250000000000003
-6,Lakeside Lodge,Ontario,4,lodge,260.0,"canoe, grill, wifi","lake, forest",3,0,0.0,2,1,0.5,0.48,0.48,0.268
-7,Seaside Bungalow,California,3,bungalow,270.0,"pool, wifi, ac","beach, forest",3,0,0.0,2,1,0.5,0.46,0.46,0.261
-8,Alpine Chalet,Swiss Alps,5,chalet,350.0,"fireplace, balcony, grill","mountain, lake",3,1,0.33,2,1,0.5,0.3,0.3,0.35350000000000004
-9,Jungle Treehouse,Costa Rica,2,treehouse,190.0,"balcony, wifi, grill","forest, beach",3,0,0.0,2,1,0.5,0.62,0.62,0.317
-10,Lakefront Cabin,Quebec,4,cabin,230.0,"canoe, fireplace, wifi","lake, countryside",3,1,0.33,2,1,0.5,0.54,0.54,0.4375
-11,Modern City Loft,Toronto,2,apartment,200.0,"wifi, ac, balcony","lake, countryside",3,0,0.0,2,1,0.5,0.6,0.6,0.31
-12,Desert Oasis Camp,Arizona,3,tent,150.0,"grill, wifi, pool","forest, lake",3,0,0.0,2,1,0.5,0.7,0.7,0.345
-13,Cliffside Villa,Santorini,4,villa,370.0,"pool, balcony, wifi","beach, forest",3,0,0.0,2,1,0.5,0.26,0.26,0.191
-14,Rustic Farmhouse,Vermont,5,farmhouse,250.0,"fireplace, grill, wifi","countryside, lake",3,1,0.33,2,1,0.5,0.5,0.5,0.4235
-15,Forest Cabin Retreat,Yosemite,2,cabin,220.0,"balcony, fireplace, wifi","forest, mountain",3,1,0.33,2,0,0.0,0.56,0.56,0.34450000000000003
-16,Lakehouse Estate,Minnesota,6,villa,420.0,"canoe, pool, wifi","lake, countryside",3,0,0.0,2,1,0.5,0.16,0.16,0.156
-17,Ski Lodge,Colorado,5,lodge,340.0,"fireplace, grill, wifi","mountain, forest",3,1,0.33,2,0,0.0,0.32,0.32,0.2605
-18,Tropical Beach Hut,Bali,2,hut,180.0,"balcony, wifi, pool","beach, forest",3,0,0.0,2,1,0.5,0.64,0.64,0.32399999999999995
-19,Riverfront Cottage,Nova Scotia,3,cottage,210.0,"grill, balcony, wifi","lake, countryside",3,0,0.0,2,1,0.5,0.58,0.58,0.303
-20,Urban Penthouse,New York,2,apartment,310.0,"ac, wifi, balcony","lake, forest",3,0,0.0,2,1,0.5,0.38,0.38,0.23299999999999998
-21,Mountain Hut,Nepal,2,hut,140.0,"fireplace, balcony, wifi","mountain, forest",3,1,0.33,2,0,0.0,0.72,0.72,0.4005
-22,Forest Eco-Lodge,Amazon,4,lodge,260.0,"grill, wifi, balcony","forest, lake",3,0,0.0,2,1,0.5,0.48,0.48,0.268
-23,Beach Cabana,Maldives,2,hut,300.0,"pool, wifi, balcony","beach, forest",3,0,0.0,2,1,0.5,0.4,0.4,0.24
-24,Hilltop Cottage,Ireland,3,cottage,200.0,"fireplace, balcony, wifi","countryside, lake",3,1,0.33,2,1,0.5,0.6,0.6,0.4585
-25,Luxury Desert Dome,Dubai,4,tent,280.0,"ac, wifi, pool","forest, lake",3,0,0.0,2,1,0.5,0.44,0.44,0.254
-26,Secluded Island Hut,Fiji,2,hut,220.0,"balcony, pool, wifi","beach, forest",3,0,0.0,2,1,0.5,0.56,0.56,0.29600000000000004
-27,Historic Countryside Manor,England,6,villa,360.0,"fireplace, balcony, wifi","countryside, lake",3,1,0.33,2,1,0.5,0.28,0.28,0.34650000000000003
-28,Coastal Cottage,Nova Scotia,4,cottage,230.0,"grill, wifi, balcony","beach, forest",3,0,0.0,2,1,0.5,0.54,0.54,0.28900000000000003
-29,Modern Lake Cabin,Sweden,3,cabin,260.0,"balcony, wifi, fireplace","lake, mountain",3,1,0.33,2,1,0.5,0.48,0.48,0.4165
-30,Luxury Ski Chalet,France,6,chalet,450.0,"fireplace, pool, wifi","mountain, forest",3,1,0.33,2,0,0.0,0.1,0.1,0.18350000000000002
+5,Countryside Retreat,Tuscany,2,farmhouse,180.0,"balcony, fireplace, wifi","countryside, lake",3,1,0.33,2,0,0.0,0.1,0.1,0.18350000000000002
+9,Jungle Treehouse,Costa Rica,2,treehouse,190.0,"balcony, wifi, grill","forest, beach",3,1,0.33,2,0,0.0,0.05,0.05,0.166
+11,Modern City Loft,Toronto,2,apartment,200.0,"wifi, ac, balcony","lake, countryside",3,1,0.33,2,0,0.0,0.0,0.0,0.14850000000000002
+12,Desert Oasis Camp,Arizona,3,tent,150.0,"grill, wifi, pool","forest, lake",3,0,0.0,2,0,0.0,0.25,0.25,0.0875
+18,Tropical Beach Hut,Bali,2,hut,180.0,"balcony, wifi, pool","beach, forest",3,1,0.33,2,0,0.0,0.1,0.1,0.18350000000000002
+21,Mountain Hut,Nepal,2,hut,140.0,"fireplace, balcony, wifi","mountain, forest",3,1,0.33,2,0,0.0,0.3,0.3,0.2535
+24,Hilltop Cottage,Ireland,3,cottage,200.0,"fireplace, balcony, wifi","countryside, lake",3,1,0.33,2,0,0.0,0.0,0.0,0.14850000000000002
